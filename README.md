@@ -7,8 +7,6 @@ power never
 sudo apt update
 sudo apt install ssh geany pcmanfm net-tools
 
-# scp install_mmpose ZscalerRootCerts.zip sol@10.60.1.119:
-
 cd ZscalerRootCerts
 sudo mkdir /usr/local/share/ca-certificates/extra
 sudo cp ZscalerRootCertificate-2048-SHA256.crt /usr/local/share/ca-certificates/extra/root.cert.crt
