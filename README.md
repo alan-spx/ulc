@@ -79,6 +79,5 @@ firefox: os-122218000386.local
 roslaunch ouster_ros ouster.launch sensor_hostname:=169.254.165.155 metadata:=/home/cv/metadata.json
 
 rviz rviz -f os_lidar
-
 rosbag record -a
 
