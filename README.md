@@ -64,5 +64,4 @@ rosbag record -a
 ## .bashrc
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc  
 echo "source /home/**user_name**/catkin_ws/devel/setup.bash" >> ~/.bashrc  
-@@ text in purple (and bold)@@
 source ~/.bashrc
