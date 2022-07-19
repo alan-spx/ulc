@@ -61,3 +61,7 @@ roslaunch ouster_ros ouster.launch sensor_hostname:=169.254.165.155 metadata:=/h
 rviz rviz -f os_lidar  
 rosbag record -a
 
+## .bashrc
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc  
+echo "source /home/**user_name**/catkin_ws/devel/setup.bash" >> ~/.bashrc  
+source ~/.bashrc
