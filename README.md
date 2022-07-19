@@ -22,7 +22,7 @@ Manage certificates
 Authorities  
 Import
 
-Apriltag  
+## Apriltag  
 git clone https://github.com/AprilRobotics/apriltag  
 cd apriltag  
 mkdir build  
@@ -31,7 +31,7 @@ cmake ..
 make -j  
 sudo make install
 
-TIS  
+## TIS  
 git clone https://github.com/TheImagingSource/tiscamera  
 cd tiscamera  
 ./scripts/dependency-manager install  
@@ -43,13 +43,14 @@ sudo make install
 
 Set static IP
 
-ROS  
+## ROS  
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
 mkdir -p ~/catkin_ws/src  
 cd ~/catkin_ws/  
 catkin_make
 
+## Ouster
 firefox: os-122218000386.local  
 roslaunch ouster_ros ouster.launch sensor_hostname:=169.254.165.155 metadata:=/home/cv/metadata.json  
 rviz rviz -f os_lidar  
