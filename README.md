@@ -65,3 +65,14 @@ rosbag record -a
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc  
 echo "source /home/**user_name**/catkin_ws/devel/setup.bash" >> ~/.bashrc  
 source ~/.bashrc
+
+## Memo
+
+https://static.ouster.dev/sensor-docs/image_route1/image_route2/common_sections/API/tcp-api.html  
+
+Would you be able to run the following command utilizing the TCP API and send me the results:  
+nc 122218000386.local 7501  
+get_telemetry  
+
+
+
