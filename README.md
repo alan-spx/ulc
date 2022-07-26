@@ -70,6 +70,9 @@ rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10
 
 default velodyne IP: 192.168.1.201  
 
+Dual Lidar  
+https://github.com/ros-drivers/velodyne/issues/108
+
 ## Ouster
 firefox: os-122218000386.local  
 roslaunch ouster_ros ouster.launch sensor_hostname:=169.254.165.155 metadata:=/home/cv/metadata.json  
