@@ -2,6 +2,7 @@
 
 ## Boot
 F10 -> UEFI  
+F2 -> BIOS
 
 ## Power on
 power never
@@ -70,7 +71,7 @@ rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10
 
 default velodyne IP: 192.168.1.201  
 
-Dual Lidar  "hgrw commented on May 7, 2019"  
+**Dual Lidar**  "hgrw commented on May 7, 2019"  
 https://github.com/ros-drivers/velodyne/issues/108
 
 ## Ouster
