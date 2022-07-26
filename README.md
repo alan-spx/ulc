@@ -70,7 +70,7 @@ rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10
 
 default velodyne IP: 192.168.1.201  
 
-Dual Lidar  
+Dual Lidar  "hgrw commented on May 7, 2019"  
 https://github.com/ros-drivers/velodyne/issues/108
 
 ## Ouster
