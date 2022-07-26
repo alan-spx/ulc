@@ -68,6 +68,8 @@ roslaunch velodyne_pointcloud VLP16_points.launch
 rosrun rviz rviz -f velodyne  
 rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10  
 
+default velodyne IP: 192.168.1.201  
+
 ## Ouster
 firefox: os-122218000386.local  
 roslaunch ouster_ros ouster.launch sensor_hostname:=169.254.165.155 metadata:=/home/cv/metadata.json  
