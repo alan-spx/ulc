@@ -70,6 +70,11 @@ http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne
 	rosrun rviz rviz -f velodyne
 	rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10
 
+and run
+
+	./calicam YOUR_CALIBRATION_FILE.yml
+
+
 default velodyne IP: 192.168.1.201  
 
 **Dual Lidar**  "hgrw commented on May 7, 2019"  
