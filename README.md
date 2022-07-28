@@ -66,9 +66,9 @@ http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne
 5. rosdep install --from-paths src --ignore-src --rosdistro melodic -y  
 6. catkin_make  
 
-  roslaunch velodyne_pointcloud VLP16_points.launch  
-  rosrun rviz rviz -f velodyne  
-  rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10  
+	roslaunch velodyne_pointcloud VLP16_points.launch  
+	rosrun rviz rviz -f velodyne  
+	rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10  
 
 default velodyne IP: 192.168.1.201  
 
