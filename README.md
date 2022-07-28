@@ -64,16 +64,11 @@ http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne
 3. cd ~/catkin_ws/src/ && git clone https://github.com/ros-drivers/velodyne.git  
 4. cd ..  
 5. rosdep install --from-paths src --ignore-src --rosdistro melodic -y  
-6. catkin_make  
+6. catkin_make
 
-	roslaunch velodyne_pointcloud VLP16_points.launch
-	rosrun rviz rviz -f velodyne
-	rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10
-
-and run
-
-	./calicam YOUR_CALIBRATION_FILE.yml
-
+	roslaunch velodyne_pointcloud VLP16_points.launch  
+	rosrun rviz rviz -f velodyne  
+	rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10  
 
 default velodyne IP: 192.168.1.201  
 
