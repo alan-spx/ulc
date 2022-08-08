@@ -94,5 +94,21 @@ Would you be able to run the following command utilizing the TCP API and send me
 nc 122218000386.local 7501  
 get_telemetry  
 
+## git
+
+[user]  
+        name = G Zhang  
+        email = akcite@gmail.com  
+[alias]  
+        acm = !git add -A && git commit -m  
+        co = checkout  
+        ci = commit  
+        st = status  
+        br = branch  
+        hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short  
+        type = cat-file -t  
+        dump = cat-file -p  
+        rh = reset --hard  
+        rl = !git ls-tree --full-tree -r HEAD  
 
 
