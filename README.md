@@ -112,3 +112,8 @@ get_telemetry
         rl = !git ls-tree --full-tree -r HEAD  
 
 
+## image_view
+
+rosrun image_view image_view image:=/cam_front_publish/image_rect  
+
+
