@@ -115,5 +115,5 @@ get_telemetry
 ## image_view
 
 rosrun image_view image_view image:=/cam_front_publish/image_rect  
-
+(mouse right click, save to current folder)  
 
