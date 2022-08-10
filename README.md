@@ -51,6 +51,9 @@ Set static IP
 
 **tcam-gigetool**  
 https://www.theimagingsource.com/documentation/tiscamera/tcam-gigetool.html  
+tcam-gigetool list  
+tcam-gigetool set --mode dhcp ####  
+tcam-gigetool set --mode static ####  
 
 ## ROS  
 http://wiki.ros.org/melodic/Installation/Ubuntu
