@@ -49,6 +49,9 @@ sudo make install
 
 Set static IP
 
+**tcam-gigetool**  
+https://www.theimagingsource.com/documentation/tiscamera/tcam-gigetool.html  
+
 ## ROS  
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
