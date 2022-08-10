@@ -1,4 +1,4 @@
-# ulc
+# ULC
 
 ## Boot
 F10 -> UEFI  
@@ -52,6 +52,7 @@ Set static IP
 **tcam-gigetool**  
 https://www.theimagingsource.com/documentation/tiscamera/tcam-gigetool.html  
 tcam-gigetool list  
+tcam-gigetool info ####  
 tcam-gigetool set --mode dhcp ####  
 tcam-gigetool set --mode static ####  
 
