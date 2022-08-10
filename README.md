@@ -72,8 +72,15 @@ http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne
 
 default velodyne IP: 192.168.1.201  
 
+## Velodyne dual  
+
 **Dual Lidar**  "hgrw commented on May 7, 2019"  
 https://github.com/ros-drivers/velodyne/issues/108
+
+roslaunch velodyne_pointcloud VLP16_dual.launch  
+rviz rviz  
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map vlp201 10  
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map vlp202 10  
 
 ## Ouster
 firefox: os-122218000386.local  
