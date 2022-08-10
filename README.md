@@ -114,6 +114,7 @@ get_telemetry
 
 ## image_view
 
+roslaunch tcam_publish tcam_publish.launch cam_name:=cam_front cam_serial:=#38810013  
 rosrun image_view image_view image:=/cam_front_publish/image_rect  
 (mouse right click, save to current folder)  
 
