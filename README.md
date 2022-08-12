@@ -127,7 +127,7 @@ get_telemetry
 ## git
 
 [user]  
-        name = Alan Zhang  
+        name = Guoxuan Zhang  
         email = guoxuan.zhang@spx.com  
 [alias]  
         acm = !git add -A && git commit -m  
