@@ -127,8 +127,8 @@ get_telemetry
 ## git
 
 [user]  
-        name = G Zhang  
-        email = akcite@gmail.com  
+        name = Alan Zhang  
+        email = guoxuan.zhang@spx.com  
 [alias]  
         acm = !git add -A && git commit -m  
         co = checkout  
