@@ -76,7 +76,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=/usr/local \  
     ..  
 make -j4  
-make install  
+sudo make install  
 
 ## Velodyne
 http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16  
