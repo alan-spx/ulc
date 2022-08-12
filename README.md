@@ -28,6 +28,13 @@ Manage certificates
 Authorities  
 Import
 
+## ROS  
+http://wiki.ros.org/melodic/Installation/Ubuntu
+
+mkdir -p ~/catkin_ws/src  
+cd ~/catkin_ws/  
+catkin_make
+
 ## Apriltag  
 git clone https://github.com/AprilRobotics/apriltag  
 cd apriltag  
@@ -55,13 +62,6 @@ tcam-gigetool list
 tcam-gigetool info ####  
 tcam-gigetool set --mode dhcp ####  
 tcam-gigetool set --mode static ####  
-
-## ROS  
-http://wiki.ros.org/melodic/Installation/Ubuntu
-
-mkdir -p ~/catkin_ws/src  
-cd ~/catkin_ws/  
-catkin_make
 
 ## Pangolin
 sudo apt install -y libglew-dev  
