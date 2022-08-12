@@ -45,8 +45,9 @@ make -j
 sudo make install
 
 ## TIS  
-git clone https://github.com/TheImagingSource/tiscamera  
+git clone https://github.com/TheImagingSource/tiscamera    
 cd tiscamera  
+git checkout baacb4cfaa7858c2e6cfb4f1a297b404c4e002f6  
 ./scripts/dependency-manager install  
 mkdir build  
 cd build  
