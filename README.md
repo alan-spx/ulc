@@ -63,6 +63,21 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/  
 catkin_make
 
+## Pangolin
+sudo apt install -y libglew-dev  
+
+cd ~/src
+git clone https://github.com/stevenlovegrove/Pangolin.git  
+cd Pangolin  
+git checkout ad8b5f83222291c51b4800d5a5873b0e90a0cf81  
+mkdir build && cd build  
+cmake \  
+    -DCMAKE_BUILD_TYPE=Release \  
+    -DCMAKE_INSTALL_PREFIX=/usr/local \  
+    ..  
+make -j4  
+make install  
+
 ## Velodyne
 http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16  
 
