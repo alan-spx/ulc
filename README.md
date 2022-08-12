@@ -147,3 +147,8 @@ roslaunch tcam_publish tcam_publish.launch cam_name:=cam_front cam_serial:=#3881
 rosrun image_view image_view image:=/cam_front_publish/image_rect  
 (mouse right click, save to current folder)  
 
+
+## TeamViewer
+https://www.teamviewer.com/en/download/linux
+sudo apt install ./teamviewer_15.32.3_amd64.deb 
+
