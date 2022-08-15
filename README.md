@@ -9,7 +9,7 @@ power never
 
 ## sudo
 sudo apt update  
-sudo apt install ssh geany pcmanfm net-tools git gitk
+sudo apt install ssh geany pcmanfm net-tools git gitk terminator  
 
 ## akcite/ulc
 cd && mkdir src && cd src && git clone https://github.com/akcite/ulc  
