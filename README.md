@@ -9,14 +9,7 @@ power never
 
 ## sudo
 sudo apt update  
-sudo apt install ssh geany pcmanfm net-tools
-
-## ZscalerRootCerts
-cd ZscalerRootCerts  
-sudo mkdir /usr/local/share/ca-certificates/extra  
-sudo cp ZscalerRootCertificate-2048-SHA256.crt /usr/local/share/ca-certificates/extra/root.cert.crt  
-sudo update-ca-certificates  
-cd
+sudo apt install ssh geany pcmanfm net-tools git gitk
 
 ## Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
@@ -27,6 +20,13 @@ Security
 Manage certificates  
 Authorities  
 Import
+
+## ZscalerRootCerts
+cd ZscalerRootCerts  
+sudo mkdir /usr/local/share/ca-certificates/extra  
+sudo cp ZscalerRootCertificate-2048-SHA256.crt /usr/local/share/ca-certificates/extra/root.cert.crt  
+sudo update-ca-certificates  
+cd
 
 ## ROS  
 http://wiki.ros.org/melodic/Installation/Ubuntu
