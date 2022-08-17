@@ -145,7 +145,7 @@ get_telemetry
         rl = !git ls-tree --full-tree -r HEAD  
 
 guoxuan.zhang@spx.com  
-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  
+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  
 
 ## image_view
 
