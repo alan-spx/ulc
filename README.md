@@ -144,6 +144,8 @@ get_telemetry
         rh = reset --hard  
         rl = !git ls-tree --full-tree -r HEAD  
 
+guoxuan.zhang@spx.com  
+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  
 
 ## image_view
 
