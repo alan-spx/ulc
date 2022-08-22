@@ -5,7 +5,8 @@ F10 -> UEFI
 F2 -> BIOS
 
 ## Power on
-power never
+power never  
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 
 ## sudo
 sudo apt update  
