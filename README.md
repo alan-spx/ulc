@@ -156,3 +156,7 @@ rosrun image_view image_view image:=/cam_front_publish/image_rect
 https://www.teamviewer.com/en/download/linux  
 sudo apt install ./teamviewer_15.32.3_amd64.deb 
 
+
+## Sharing
+ssh cv-NUC10i7FNK.local
+
