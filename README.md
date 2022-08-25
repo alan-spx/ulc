@@ -160,3 +160,18 @@ sudo apt install ./teamviewer_15.32.3_amd64.deb
 ## Sharing
 ssh cv-NUC10i7FNK.local
 
+
+## Vision_msg
+
+[12:33 PM] Artes, Benjamin  
+I'd like for you to use the vision_msgs/BoundingBox3DArray message that's part of the vision_msgs package for LIDAR. If no objects are present leave the array empty.
+
+To install this package `sudo apt install ros-melodic-vision-msgs`  
+vision_msgs/BoundingBox3DArray Documentation
+
+[12:34 PM] Artes, Benjamin  
+(pose.position should be the position you're using, and pose.orientation should be identity (x: 0, y: 0, z: 0, w: 1)
+
+[12:35 PM] Artes, Benjamin  
+And please fill out the header.frame_id with the name of the lidar (front_lidar or back_lidar)
+
