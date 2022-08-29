@@ -83,6 +83,9 @@ cmake \
 make -j4  
 sudo make install  
 
+## vision_msgs
+git clone https://github.com/ros-perception/vision_msgs.git  
+
 ## Velodyne
 http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16  
 
