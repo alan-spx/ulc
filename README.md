@@ -131,7 +131,7 @@ Would you be able to run the following command utilizing the TCP API and send me
 nc 122218000386.local 7501  
 get_telemetry  
 
-## git
+## .gitconfig
 
 [user]  
         name = Guoxuan Zhang  
