@@ -178,3 +178,19 @@ vision_msgs/BoundingBox3DArray Documentation
 [12:35 PM] Artes, Benjamin  
 And please fill out the header.frame_id with the name of the lidar (front_lidar or back_lidar)
 
+
+## IP settings
+
+**Solar robot**
+
+Address: 192.168.0.1  
+Netmask: 255.255.255.0  
+Gateway: 192.168.0.1  
+
+**Personal use**
+
+Address: 192.168.1.1  
+Netmask: 255.255.255.0  
+Gateway: N/A
+
+
