@@ -23,10 +23,10 @@ roslaunch tcam_extrinsic_calibration tcam_extrinsic_calibration.launch cam_name:
 
 **calibration_input.txt format**
 
-x, y, z, u, v
-x, y, z, u, v
-x, y, z, u, v
-x, y, z, u, v
+x, y, z, u, v  
+x, y, z, u, v  
+x, y, z, u, v  
+x, y, z, u, v  
 
 **Result**
 
