@@ -193,4 +193,21 @@ Address: 192.168.1.1
 Netmask: 255.255.255.0  
 Gateway: N/A
 
+## ceres-solver 
+
+sudo apt-get install cmake  
+sudo apt-get install libgoogle-glog-dev libgflags-dev  
+sudo apt-get install libatlas-base-dev  
+sudo apt-get install libeigen3-dev  
+sudo apt-get install libsuitesparse-dev  
+
+cd && cd src  
+wget http://ceres-solver.org/ceres-solver-2.1.0.tar.gz  
+tar zxf ceres-solver-2.1.0.tar.gz  
+mkdir ceres-bin  
+cd ceres-bin  
+cmake ../ceres-solver-2.1.0  
+make -j  
+make test  
+sudo make install  
 
