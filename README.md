@@ -210,4 +210,4 @@ cmake ../ceres-solver-2.1.0
 make -j  
 make test  
 sudo make install  
-
+bin/simple_bundle_adjuster ../ceres-solver-2.1.0/data/problem-16-22106-pre.txt  
