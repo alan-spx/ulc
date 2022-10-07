@@ -211,3 +211,11 @@ make -j
 make test  
 sudo make install  
 bin/simple_bundle_adjuster ../ceres-solver-2.1.0/data/problem-16-22106-pre.txt  
+
+
+## spdlog
+
+git clone https://github.com/gabime/spdlog.git  
+cd spdlog && mkdir build && cd build  
+cmake .. && make -j  
+sudo make install  
