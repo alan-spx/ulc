@@ -134,8 +134,8 @@ get_telemetry
 ## .gitconfig
 
 [user]  
-#        name = G Zhang  
-#        email = akcite@gmail.com  
+        name = G Zhang  
+        email = akcite@gmail.com  
 	name = Guoxuan Zhang  
         email = guoxuan.zhang@spx.com  
 [alias]  
