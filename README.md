@@ -148,7 +148,7 @@ get_telemetry
         type = cat-file -t  
         dump = cat-file -p  
         rh = reset --hard  
-        rl = !git ls-tree --full-tree -r HEAD  
+        ls-repo = !git ls-tree --full-tree -r HEAD  
 
 ## image_view
 
