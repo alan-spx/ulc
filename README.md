@@ -5,6 +5,7 @@ F10 -> UEFI
 F2 -> BIOS
 
 ## akcite/ulc
+sudo apt install git  
 mkdir src  
 cd src  
 git clone https://github.com/alan-spx/ulc  
