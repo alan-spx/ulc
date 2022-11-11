@@ -16,6 +16,7 @@ sudo apt install ssh geany pcmanfm net-tools git gitk terminator
 cd && mkdir src && cd src && git clone https://github.com/akcite/ulc  
 
 ## Chrome
+cd  
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
