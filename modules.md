@@ -6,9 +6,8 @@ sudo apt install git
 
 mkdir src  
 cd src  
-
-git clone https://github.com/cyhsu14/OmniNeRF.git  
 git clone https://github.com/alan-spx/ulc  
+git clone https://github.com/cyhsu14/OmniNeRF.git  
 
 sudo apt update  
 sudo apt remove --auto-remove nautilus  
