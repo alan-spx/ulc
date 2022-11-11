@@ -120,12 +120,14 @@ cd ~/catkin_ws/src/ && git clone https://github.com/ros-perception/vision_msgs.g
 ## Velodyne
 http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16  
 
-1. static IP  
-2. sudo apt-get install ros-melodic-velodyne  
-3. cd ~/catkin_ws/src/ && git clone https://github.com/ros-drivers/velodyne.git  
-4. cd ..  
-5. rosdep install --from-paths src --ignore-src --rosdistro melodic -y  
-6. catkin_make
+static IP  
+```
+sudo apt-get install ros-melodic-velodyne  
+cd ~/catkin_ws/src/ && git clone https://github.com/ros-drivers/velodyne.git  
+cd ..  
+rosdep install --from-paths src --ignore-src --rosdistro melodic -y  
+catkin_make
+```
 
 ```
 roslaunch velodyne_pointcloud VLP16_points.launch  
