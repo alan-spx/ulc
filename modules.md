@@ -25,9 +25,14 @@ sudo apt install python3-pip
 python3.7 -m pip install pip  
 pip3 -V  
 python3.7 -m pip install --upgrade pip    
-   
+
+```
 python3.7 -m pip install scikit-build  
 python3.7 -m pip install -r requirements.txt  
+```
+```
+python run_nerf.py --config configs/st3d.txt  
+```
 
 ##  cuda 11.4  
 
