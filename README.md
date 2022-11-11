@@ -37,7 +37,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
 Chrome settings:  
 ```
-Security  --> Manage certificates  --> Authorities  --> Import  
+Security --> Manage certificates --> Authorities --> Import  
 ```
 
 ## Power on
