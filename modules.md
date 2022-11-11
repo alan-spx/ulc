@@ -13,7 +13,12 @@ sudo apt update
 sudo apt remove --auto-remove nautilus  
 
 sudo apt install python3.7  
-alias python3=python3.7  ==> .bashrc  
+
+==> .bashrc  
+alias python3=python3.7  
+[ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"  
+export PATH  
+
 python3 -V  
 
 sudo apt install python3-pip  
