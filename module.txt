@@ -1,4 +1,6 @@
-## OmniNeRF
+# CV modules
+
+## OmniNeRF  
 
 sudo apt install git  
 
@@ -21,5 +23,5 @@ pip3 install --upgrade pip
 pip3 install scikit-build  
 pip3 install -r requirements.txt  
 
-## 
+##  
 
