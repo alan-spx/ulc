@@ -21,7 +21,9 @@ export PATH
 
 python3 -V  
 
-sudo apt install python3-pip  
+%% sudo apt install python3-pip  
+python3.7 -m pip install pip
+pip3 -V
 pip3 install --upgrade pip    
    
 pip3 install scikit-build  
