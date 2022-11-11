@@ -4,16 +4,14 @@
 F10 -> UEFI  
 F2 -> BIOS
 
-## Power on
-power never  
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
+## akcite/ulc
+mkdir src  
+cd src  
+git clone https://github.com/alan-spx/ulc  
 
 ## sudo
 sudo apt update  
 sudo apt install ssh geany pcmanfm net-tools git gitk terminator  
-
-## akcite/ulc
-cd && mkdir src && cd src && git clone https://github.com/akcite/ulc  
 
 ## ZscalerRootCerts
 cd ~/src/ulc
@@ -33,6 +31,10 @@ Security
 Manage certificates  
 Authorities  
 Import
+
+## Power on
+power never  
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 
 ## ROS  
 http://wiki.ros.org/melodic/Installation/Ubuntu
