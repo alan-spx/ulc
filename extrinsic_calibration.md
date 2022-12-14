@@ -32,6 +32,15 @@ x, y, z, u, v
 
 pose_robot_cam.yml
 
+## Test  
+
+**Copy file**
+
+pose_robot_cam.yml >> pose_robot_cam_front.yml
+
+**Run**
+
+roslaunch apriltag_localization apriltag_localization_single.launch cam_name:=cam_front cam_serial:=#38810017  
 
 
 
