@@ -275,3 +275,11 @@ cd spdlog && mkdir build && cd build
 cmake .. && make -j  
 sudo make install  
 ```
+
+## clang-format
+
+```
+sudo apt install clang-format  
+find src/ -iname *.h -o -iname *.cpp | xargs clang-format -i  
+```
+
