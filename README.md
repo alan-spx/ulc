@@ -285,6 +285,8 @@ find src/ -iname *.h -o -iname *.cpp | xargs clang-format -i
 
 ## OpenCV
 
+From stella_vslam  
+
 **Dependencies**  
 ```
 sudo apt install -y libgtk-3-dev  
