@@ -315,6 +315,6 @@ cmake \
     -DWITH_OPENMP=ON \
     ..
 make -j4
-make install
+sudo make install
 ```
 
