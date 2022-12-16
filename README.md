@@ -297,7 +297,7 @@ sudo apt install -y libavcodec-dev libavformat-dev libavutil-dev libswscale-dev 
 **Install**
 ```
 cd /path/to/working/dir
-wget -q https://github.com/opencv/opencv/archive/3.4.0.zip
+wget https://github.com/opencv/opencv/archive/3.4.0.zip
 unzip -q 3.4.0.zip
 rm -rf 3.4.0.zip
 cd opencv-3.4.0
