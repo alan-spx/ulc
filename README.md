@@ -173,9 +173,9 @@ get_telemetry
 ## .gitconfig
 
 [user]  
-        name = G Zhang  
+        name = A Zhang  
         email = akcite@gmail.com  
-	name = Guoxuan Zhang  
+	name = Alan Zhang  
         email = guoxuan.zhang@spx.com  
 [alias]  
         acm = !git add -A && git commit -m  
