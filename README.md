@@ -197,7 +197,7 @@ rosrun image_view image_view image:=/cam_front_publish/image_rect
 ```
 (mouse right click, save to current folder)  
 
-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  
+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  
 
 
 ## TeamViewer
