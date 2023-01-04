@@ -91,6 +91,11 @@ tcam-gigetool set --mode dhcp ####
 tcam-gigetool set --mode static ####  
 ```
 
+**GX183 stereo network setting**  
+```
+Link-Local Only
+```
+
 ## Pangolin
 ```
 sudo apt install -y libglew-dev  
