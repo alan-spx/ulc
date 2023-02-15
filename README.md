@@ -47,6 +47,11 @@ power never
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 ```
 
+## New cmake
+```
+https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line  
+```
+
 ## ROS  
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
