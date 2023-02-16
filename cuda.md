@@ -1,4 +1,5 @@
 ## cuda 10.2 (local .deb)
+
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
 sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -15,6 +16,9 @@ nvidia-smi
 ```
 
 ## cuda 11.4
+
+https://medium.com/@anarmammadli/how-to-install-cuda-11-4-on-ubuntu-18-04-or-20-04-63f3dee2099  
+
 ```
 sudo rm /etc/apt/sources.list.d/cuda*
 sudo apt remove --autoremove nvidia-cuda-toolkit
