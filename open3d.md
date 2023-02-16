@@ -53,6 +53,22 @@ sudo apt install build-essential libtool autoconf unzip wget
 ## CUDA
 
 
+## Upgrade Python 3.6 to 3.7
+```
+python3 --version
+sudo apt-get install python3.7
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+sudo update-alternatives --config python3
+python3 -V
+python -V
+
+sudo apt-get install --reinstall python3-apt
+cd /usr/lib/python3/dist-packages/
+ls -l | grep apt_pkg
+sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so
+```
+
 ## Build from source code
 ```
 cd src/
@@ -76,24 +92,8 @@ make -j
 ./Draw 
 ```
 
-## Upgrade Python 3.6 to 3.7
-```
-python3 --version
-sudo apt-get install python3.7
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
-sudo update-alternatives --config python3
-python3 -V
-python -V
-```
-
 ## Install open3d Python
 ```
-sudo apt-get install --reinstall python3-apt
-cd /usr/lib/python3/dist-packages/
-ls -l | grep apt_pkg
-sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so
-
 sudo apt install python3-pip
 pip3 install -U pip>=20.3
 
