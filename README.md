@@ -338,3 +338,16 @@ make -j4
 sudo make install
 ```
 
+**Geany**
+
+Change Color Scheme  
+https://github.com/geany/geany-themes  
+https://www.geany.org/download/themes/  
+
+Download to  
+~/.config/geany/colorschemes  
+In Geany  
+View/Change Color Scheme  
+
+Theme: InkPot  
+
