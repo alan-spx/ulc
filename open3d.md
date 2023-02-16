@@ -11,6 +11,7 @@ sudo apt install ssh geany pcmanfm net-tools git gitk terminator
 
 ## Unzip ZscalerRootCerts  
 ```
+# Unzip ZscalerRootCerts
 cd ZscalerRootCerts  
 sudo mkdir /usr/local/share/ca-certificates/extra  
 sudo cp ZscalerRootCertificate-2048-SHA256.crt /usr/local/share/ca-certificates/extra/root.cert.crt  
