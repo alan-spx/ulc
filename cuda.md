@@ -14,7 +14,7 @@ sudo apt-get -y install cuda
 nvidia-smi
 ```
 
-## cuda 
+## cuda 11.4
 ```
 sudo rm /etc/apt/sources.list.d/cuda*
 sudo apt remove --autoremove nvidia-cuda-toolkit
