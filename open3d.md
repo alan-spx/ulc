@@ -90,6 +90,9 @@ sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so
 ```
 
 ## Build from source code
+
+Not working now, complain Python  
+
 ```
 cd src/
 git clone https://github.com/isl-org/Open3D
