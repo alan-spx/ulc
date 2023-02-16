@@ -345,7 +345,7 @@ https://github.com/geany/geany-themes
 https://www.geany.org/download/themes/  
 
 Download to  
-~/.config/geany/colorschemes  
+~/.config/geany/colorschemes/inkpot.conf  
 In Geany  
 View/Change Color Scheme  
 
