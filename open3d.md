@@ -23,7 +23,9 @@ cd
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
 sudo apt install ./google-chrome-stable_current_amd64.deb
+
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
+Power on
 ```
 
 ## New cmake
@@ -47,6 +49,9 @@ cmake --version
 
 sudo apt install build-essential libtool autoconf unzip wget
 ```
+
+## CUDA
+
 
 ## Build from source code
 ```
