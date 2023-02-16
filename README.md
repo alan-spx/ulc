@@ -338,7 +338,7 @@ make -j4
 sudo make install
 ```
 
-**Geany**
+##Geany
 
 Change Color Scheme  
 https://github.com/geany/geany-themes  
