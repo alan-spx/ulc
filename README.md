@@ -53,6 +53,11 @@ https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cm
 Run A1~A6
 ```
 
+## Upgrade Python 3.6 to 3.7
+```
+https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-7-on-ubuntu-18-10/  
+```
+
 ## ROS  
 http://wiki.ros.org/melodic/Installation/Ubuntu
 
