@@ -357,3 +357,18 @@ View/Change Color Scheme
 Theme: InkPot  
 ```
 
+## Ubuntu Icon Entry
+```
+[Desktop Entry]
+Name=Eclipse
+Type=Application
+Exec=/home/USERNAME/java-mars/eclipse/eclipse
+Terminal=false
+Icon=/home/USERNAME/java-mars/eclipse/icon.xpm
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE;
+Name[en]=Eclipse
+
+https://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-in-ubuntu-16-04-15-10/
+```
