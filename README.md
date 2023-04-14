@@ -376,6 +376,7 @@ https://ubuntuhandbook.org/index.php/2016/01/how-to-install-the-latest-eclipse-i
 ## Repo
 ```
 https://github.com/ULC-Robotics/apriltag_localization
+https://github.com/ULC-Robotics/cross_localization
 ```
 
 
