@@ -36,7 +36,7 @@ pose_robot_cam.yml
 
 **Copy file**
 
-pose_robot_cam.yml >> pose_robot_cam_front.yml
+pose_robot_cam.yml --> pose_robot_cam_front.yml
 
 **Run**
 
