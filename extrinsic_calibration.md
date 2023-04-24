@@ -40,7 +40,7 @@ pose_robot_cam.yml >> pose_robot_cam_front.yml
 
 **Run**
 
-roslaunch apriltag_localization apriltag_localization_single.launch cam_name:=cam_front cam_serial:=#38810017  
+roslaunch apriltag_localization apriltag_localization.launch cam_name:=cam_front cam_serial:=#38810017 show_image:=true  
 
 
 
