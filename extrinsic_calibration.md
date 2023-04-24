@@ -8,7 +8,7 @@ cd
 
 ## Run camera
 
-roslaunch tcam_publish tcam_publish.launch cam_name:=cam_front cam_serial:=#38810017
+roslaunch tcam_publish tcam_publish.launch cam_name:=cam_front cam_serial:=#38810018
 
 ## View image
 
@@ -19,7 +19,7 @@ click to save image
 
 **Run**
 
-roslaunch tcam_extrinsic_calibration tcam_extrinsic_calibration.launch cam_name:=cam_front cam_serial:=#38810017  
+roslaunch tcam_extrinsic_calibration tcam_extrinsic_calibration.launch cam_name:=cam_front cam_serial:=#38810018  
 
 **calibration_input.txt format**
 
@@ -40,7 +40,7 @@ pose_robot_cam.yml >> pose_robot_cam_front.yml
 
 **Run**
 
-roslaunch apriltag_localization apriltag_localization.launch cam_name:=cam_front cam_serial:=#38810017 show_image:=true  
+roslaunch apriltag_localization apriltag_localization.launch cam_name:=cam_front show_image:=true cam_serial:=#38810018  
 
 
 
