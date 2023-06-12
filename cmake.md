@@ -1,5 +1,6 @@
-###OpenCV C++11
+## OpenCV C++11
 
+```
 cmake_minimum_required(VERSION 2.8)
 project(bcali LANGUAGES C CXX)
 set (CMAKE_CXX_STANDARD 11)
@@ -13,3 +14,4 @@ add_executable(bcali src/main.cpp
 					 src/calibrate.cpp
 					 src/find_grids.cpp)
 target_link_libraries(bcali ${OpenCV_LIBRARIES})
+```
