@@ -1,4 +1,4 @@
-## Basic
+## Basic C++11
 
 ```
 cmake_minimum_required(VERSION 2.8)
@@ -8,7 +8,7 @@ set (CMAKE_CXX_STANDARD 11)
 add_executable(person src/cout_sequence.cpp)
 ```
 
-## OpenCV C++11
+## OpenCV
 
 ```
 cmake_minimum_required(VERSION 2.8)
