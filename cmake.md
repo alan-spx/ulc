@@ -21,7 +21,7 @@ find_package(Eigen3 REQUIRED)
 include_directories(EIGEN3_INCLUDE_DIR PATHS /usr/local/include/eigen3)
 
 add_executable(bcali src/main.cpp 
-					 src/calibrate.cpp
-					 src/find_grids.cpp)
+		     src/calibrate.cpp
+		     src/find_grids.cpp)
 target_link_libraries(bcali ${OpenCV_LIBRARIES})
 ```
