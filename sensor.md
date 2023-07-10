@@ -24,7 +24,7 @@ https://www.theimagingsource.com/products/industrial-cameras/usb-3.0-color/dfk33
 **Teledyne DALSA**  
 https://www.teledynedalsa.com/en/products/imaging/cameras/  
 
-**Nano G3-GC11-C2020IF**
+**Nano G3-GC11-C2020IF**  
 https://www.uniforcesales.com/cameras/dalsa-genie-nano-g3-gc11-c2020if/
 
 
