@@ -7,7 +7,7 @@ https://www.theimagingsource.com/products/industrial-cameras/gige-color/dfk33gx2
 **DFK 33GX264** - 2/3-inch global shutter   
 https://www.theimagingsource.com/products/industrial-cameras/gige-color/dfk33gx264/  
 
-**DFK 33GX183** - 1-inch rolling shutter (CUES manhole project)   
+**DFK 33GX183** - 1-inch rolling shutter (CUES manhole project stereo)   
 https://www.theimagingsource.com/products/industrial-cameras/gige-color/dfk33gx183/  
 
 **TIS Industrial cameras List**  
