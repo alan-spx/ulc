@@ -19,6 +19,9 @@ https://www.theimagingsource.com/products/industrial-cameras/usb-3.1-color/dfk37
 **DFK 33UX250**  
 https://www.theimagingsource.com/products/industrial-cameras/usb-3.0-color/dfk33ux250/  
 
+**Teledyne DALSA**  
+https://www.teledynedalsa.com/en/products/imaging/cameras/  
+
 
 # e-con Systems
 
