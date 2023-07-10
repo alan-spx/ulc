@@ -10,8 +10,8 @@ https://www.theimagingsource.com/products/industrial-cameras/gige-color/dfk33gx2
 **DFK 33GX183** - 1-inch rolling shutter (CUES manhole project)   
 https://www.theimagingsource.com/products/industrial-cameras/gige-color/dfk33gx183/  
 
-**TIS Industrial cameras USB 3.0 color List**  
-https://www.theimagingsource.com/products/industrial-cameras/usb-3.0-color/  
+**TIS Industrial cameras List**  
+https://www.theimagingsource.com/en-us/product/industrial/  
 
 **DFK 37AUX273**  
 https://www.theimagingsource.com/products/industrial-cameras/usb-3.1-color/dfk37aux273/  
