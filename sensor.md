@@ -27,6 +27,10 @@ https://www.teledynedalsa.com/en/products/imaging/cameras/
 **Nano G3-GC11-C2020IF**  
 https://www.uniforcesales.com/cameras/dalsa-genie-nano-g3-gc11-c2020if/
 
+# Basler
+
+**ace 2 Basic**  
+https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace2/#productline=ace2basic;mono_color=color;interface=undefined  
 
 # e-con Systems
 
