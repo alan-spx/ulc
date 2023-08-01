@@ -3,6 +3,9 @@
 ## Boot
 F10 -> UEFI  
 F2 -> BIOS
+```
+Power -> Secondary Power Settings -> After Power Failure -> Power On  
+```
 
 ## akcite/ulc
 ```
