@@ -9,11 +9,12 @@ Power -> Secondary Power Settings -> After Power Failure -> Power On
 
 ## akcite/ulc
 ```
+sudo apt-get remove --auto-remove nautilus  
+
 sudo apt install git  
 mkdir src  
 cd src  
 git clone https://github.com/alan-spx/ulc  
-sudo apt-get remove --auto-remove nautilus  
 ```
 
 ## sudo
