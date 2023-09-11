@@ -1,5 +1,17 @@
 # CV modules
 
+## RAFT
+
+**Install Anaconda**  
+```
+https://docs.anaconda.com/free/anaconda/install/linux/
+```
+
+**CUDA 10.1**  
+```
+https://medium.com/@exesse/cuda-10-1-installation-on-ubuntu-18-04-lts-d04f89287130
+```
+
 ## OmniNeRF  
 
 ```
