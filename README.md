@@ -11,7 +11,7 @@ Power -> Secondary Power Settings -> After Power Failure -> Power On
 ```
 sudo apt-get remove --auto-remove nautilus  
 
-sudo apt install git  
+sudo apt install -y git  
 mkdir src  
 cd src  
 git clone https://github.com/alan-spx/ulc  
@@ -20,7 +20,7 @@ git clone https://github.com/alan-spx/ulc
 ## sudo
 ```
 sudo apt update  
-sudo apt install ssh geany pcmanfm net-tools git gitk terminator  
+sudo apt install -y ssh geany pcmanfm net-tools git gitk terminator  
 ```
 
 ## ZscalerRootCerts
@@ -37,7 +37,7 @@ cd
 ```
 cd  
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
 ```
 
 Chrome settings:  
@@ -146,7 +146,7 @@ http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne
 
 static IP  
 ```
-sudo apt-get install ros-melodic-velodyne  
+sudo apt-get install -y ros-melodic-velodyne  
 cd ~/catkin_ws/src/ && git clone https://github.com/ros-drivers/velodyne.git  
 cd ..  
 rosdep install --from-paths src --ignore-src --rosdistro melodic -y  
@@ -229,7 +229,7 @@ shorturl.at/ANO37
 ## TeamViewer
 https://www.teamviewer.com/en/download/linux  
 ```
-sudo apt install ./teamviewer_15.32.3_amd64.deb 
+sudo apt install -y ./teamviewer_15.32.3_amd64.deb 
 ```
 
 
@@ -244,7 +244,7 @@ ssh cv-NUC10i7FNK.local
 [12:33 PM] Artes, Benjamin  
 I'd like for you to use the vision_msgs/BoundingBox3DArray message that's part of the vision_msgs package for LIDAR. If no objects are present leave the array empty.
 
-To install this package `sudo apt install ros-melodic-vision-msgs`  
+To install this package `sudo apt install -y ros-melodic-vision-msgs`  
 vision_msgs/BoundingBox3DArray Documentation
 
 [12:34 PM] Artes, Benjamin  
@@ -274,11 +274,11 @@ Gateway: N/A
 ## ceres-solver 
 
 ```
-sudo apt-get install cmake  
-sudo apt-get install libgoogle-glog-dev libgflags-dev  
-sudo apt-get install libatlas-base-dev  
-sudo apt-get install libeigen3-dev  
-sudo apt-get install libsuitesparse-dev  
+sudo apt-get install -y cmake  
+sudo apt-get install -y libgoogle-glog-dev libgflags-dev  
+sudo apt-get install -y libatlas-base-dev  
+sudo apt-get install -y libeigen3-dev  
+sudo apt-get install -y libsuitesparse-dev  
 ```
 
 ```
@@ -307,7 +307,7 @@ sudo make install
 ## clang-format
 
 ```
-sudo apt install clang-format  
+sudo apt install -y clang-format  
 find src/ -iname *.h -o -iname *.cpp | xargs clang-format -i  
 ```
 
