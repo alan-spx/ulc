@@ -11,6 +11,13 @@ rosrun image_view image_view image:=/cam_front_publish/image_rect
 roslaunch tcam_extrinsic_calibration tcam_extrinsic_calibration.launch cam_name:=cam_front cam_serial:=#38810017
 ```
 
+## usb_cam  
+
+```
+sudo apt install ros-melodic-usb-cam
+roslaunch usb_cam usb_cam-test.launch image_width:=1280 image_height:=960  
+```
+
 
 ## velodyne_memo
 
