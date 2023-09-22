@@ -117,6 +117,22 @@ tcam-gigetool set --mode static ####
 Link-Local Only
 ```
 
+**Tiscamera Camera Library**  
+```
+https://www.theimagingsource.com/en-us/support/download/tiscamera1804-1.1.0.4139/
+```
+
+**Tiscamera Development Package**  
+```
+https://www.theimagingsource.com/en-de/support/download/tiscameratiscameradev-1.1.0.4139/  
+```
+
+**Save an image using OpenCV**  
+```
+https://github.com/TheImagingSource/Linux-tiscamera-Programming-Samples/tree/master/cpp/Save%20an%20image%20using%20OpenCV  
+```
+
+
 ## Pangolin
 ```
 sudo apt install -y libglew-dev  
