@@ -38,3 +38,10 @@ rostopic echo /velodyne_points | grep frame_id
 ```
 std::to_string(ros::Time::now().toSec()) + ".jpg"
 ```
+
+## image_view
+```
+rosrun image_view image_view image:=/raw_image 
+rosrun image_view extract_images _sec_per_frame:=0.01 image:=/raw_image 
+```
+
