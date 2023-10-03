@@ -19,6 +19,9 @@ https://www.theimagingsource.com/products/industrial-cameras/usb-3.1-color/dfk37
 **DFK 33UX250**  
 https://www.theimagingsource.com/products/industrial-cameras/usb-3.0-color/dfk33ux250/  
 
+**DFM 37UX226-ML**  
+https://www.theimagingsource.com/en-us/product/board/37u/dfm37ux226ml/
+
 # Teledyne 
 
 **Teledyne DALSA**  
