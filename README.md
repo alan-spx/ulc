@@ -400,4 +400,10 @@ https://github.com/ULC-Robotics/apriltag_localization
 https://github.com/ULC-Robotics/cross_localization
 ```
 
+## Install OpenCL
+```
+sudo apt update
+sudo apt install ocl-icd-opencl-dev
+```
+
 
