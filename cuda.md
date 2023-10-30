@@ -17,7 +17,8 @@ nvidia-smi
 
 ## cuda 11.3
 
-https://developer.nvidia.com/cuda-11.3.0-download-archive
+https://developer.nvidia.com/cuda-11.3.0-download-archive  
+Ubuntu 20.04  
 
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
