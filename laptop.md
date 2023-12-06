@@ -1,0 +1,33 @@
+
+# AlienWare M18 R1
+
+## BIOS disable the secure boot
+```
+https://www.dell.com/support/kbdoc/en-us/000131655/how-to-install-ubuntu-linux-on-your-dell-pc
+```
+
+## RAID to AHCI
+```
+https://www.reddit.com/r/Alienware/comments/16xm8md/alienware_m16_appears_to_be_bricked_second_ssd/?utm_source=share&utm_medium=web2x&context=3
+```
+
+## CUDA
+```
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+```
+
+## Ubuntu kernel
+```
+https://linux.how2shout.com/how-to-change-default-kernel-in-ubuntu-22-04-20-04-lts/
+```
+
+## 
+```
+
+```
+
+## 
+```
+
+```
+
