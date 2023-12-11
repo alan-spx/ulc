@@ -15,16 +15,14 @@ https://www.reddit.com/r/Alienware/comments/16xm8md/alienware_m16_appears_to_be_
 ```
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 ```
+***CUDA 12.3***  
+Choose one option  
 
-## Ubuntu kernel
+# Older kernel
 ```
-https://linux.how2shout.com/how-to-change-default-kernel-in-ubuntu-22-04-20-04-lts/
+https://askubuntu.com/questions/82140/how-can-i-boot-with-an-older-kernel-version
 ```
-
-## 
-```
-
-```
+***Answer 27*** 
 
 ## 
 ```
