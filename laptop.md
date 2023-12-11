@@ -15,7 +15,8 @@ https://www.reddit.com/r/Alienware/comments/16xm8md/alienware_m16_appears_to_be_
 ```
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 ```
-***CUDA 12.3***  
+***CUDA 12.1***  
+Pytorch  
 Choose one option  
 
 # Older kernel
