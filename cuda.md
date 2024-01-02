@@ -1,14 +1,21 @@
+## Compatibility
+```
+Ubuntu
+Pytorch
+```
+
+
+## CUDA Docs
+```
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+```
+
 ## Commands
 ```
 lsb_release -a    # Ubuntu version
 uname -r          # kernel version
 gcc -v            # GCC version
 ldd --version     # GLIBC version
-```
-
-## CUDA Docs
-```
-https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 ```
 
 ## cuda 10.2 (local .deb)
