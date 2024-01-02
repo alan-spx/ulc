@@ -50,6 +50,12 @@ sudo apt-get -y install cuda
 ```
 
 
+## Pytorch
+```
+https://pytorch.org/get-started/locally/
+```
+
+
 ## CUDA 12.1 @ Ubuntu 20.04
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
