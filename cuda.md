@@ -5,6 +5,13 @@ Pytorch
 ```
 
 
+## Older kernel
+```
+https://askubuntu.com/questions/82140/how-can-i-boot-with-an-older-kernel-version
+```
+***Answer 27*** 
+
+
 ## CUDA Docs
 ```
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
