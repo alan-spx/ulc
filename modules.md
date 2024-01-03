@@ -1,6 +1,7 @@
 # CV modules
 
 ## OpenVSLAM
+Do not use ULC networks.  
 ```
 Tested for Ubuntu 20.04.
 
@@ -21,7 +22,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
-make -j4 && sudo make install
+make -j && sudo make install
 
 # OpenCV
 
@@ -52,7 +53,7 @@ cmake \
     -DWITH_OPENMP=ON \
     -DOPENCV_EXTRA_MODULES_PATH=/tmp/extra \
     ..
-make -j4 && sudo make install
+make -j && sudo make install
 
 # FBoW 
 
@@ -64,7 +65,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
-make -j4 && sudo make install
+make -j && sudo make install
 
 # g2o.
 
@@ -86,7 +87,7 @@ cmake \
     -DG2O_BUILD_EXAMPLES=OFF \
     -DG2O_BUILD_LINKED_APPS=OFF \
     ..
-make -j4 && sudo make install
+make -j && sudo make install
 
 # PangolinViewer
 
@@ -117,7 +118,7 @@ cmake \
     -DBUILD_PANGOLIN_V4L=OFF \
     -DBUILD_PANGOLIN_ZSTD=OFF \
     ..
-make -j4 && sudo make install
+make -j && sudo make install
 
 ```
 
