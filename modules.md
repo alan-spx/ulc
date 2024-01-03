@@ -1,5 +1,22 @@
 # CV modules
 
+## OpenVSLAM
+```
+# Dependencies
+
+sudo apt update -y
+sudo apt upgrade -y --no-install-recommends
+sudo apt install -y build-essential pkg-config cmake git wget curl unzip
+sudo apt install -y libatlas-base-dev libsuitesparse-dev
+sudo apt install -y libgtk-3-dev ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libavresample-dev libtbb-dev
+sudo apt install -y gfortran
+sudo apt install -y binutils-dev
+sudo apt install -y libyaml-cpp-dev libgflags-dev sqlite3 libsqlite3-dev
+sudo apt install -y libglew-dev
+
+
+```
+
 ## RAFT
 
 **Install Anaconda**  
