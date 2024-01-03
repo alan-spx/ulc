@@ -25,6 +25,7 @@ cmake \
 make -j && sudo make install
 
 # OpenCV --> ROS installs OpenCV 4.2
+# pkg-config --cflags --libs opencv4
 
 cd ~/src
 wget -q https://github.com/opencv/opencv/archive/4.5.5.zip
