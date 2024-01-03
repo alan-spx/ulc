@@ -7,6 +7,14 @@ Pytorch
 
 ## Older kernel
 ```
+sudo grub-mkconfig | grep -iE "menuentry 'Ubuntu, with Linux" | awk '{print i++ " : "$1, $2, $3, $4, $5, $6, $7}'
+sudo geany /etc/default/grub
+GRUB_DEFAULT="1>2"
+sudo update-grub
+sudo systemctl reboot
+```
+
+```
 https://askubuntu.com/questions/82140/how-can-i-boot-with-an-older-kernel-version
 ```
 ***Answer 27*** 
