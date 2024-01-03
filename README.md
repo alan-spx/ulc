@@ -10,6 +10,7 @@
 - CUDA 11.8
 - Pytorch
 - OpenCV *.*
+- OpenVSLAM
 ```
 
 ## Boot
