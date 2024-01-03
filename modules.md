@@ -91,7 +91,7 @@ make -j && sudo make install
 
 # PangolinViewer
 
-cd /tmp
+cd ~/src
 git clone https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin
 git checkout eab3d3449a33a042b1ee7225e1b8b593b1b21e3e
