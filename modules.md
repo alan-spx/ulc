@@ -91,11 +91,12 @@ cmake \
 make -j && sudo make install
 
 # PangolinViewer
+# Older version: ad8b5f83222291c51b4800d5a5873b0e90a0cf81
 
 cd ~/src
 git clone https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin
-git checkout eab3d3449a33a042b1ee7225e1b8b593b1b21e3e
+git checkout ad8b5f83222291c51b4800d5a5873b0e90a0cf81
 mkdir build && cd build
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
