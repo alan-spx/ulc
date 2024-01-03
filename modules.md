@@ -28,12 +28,6 @@ make -j4 && sudo make install
 cd ~/src
 wget -q https://github.com/opencv/opencv/archive/4.5.5.zip
 unzip -q 4.5.5.zip && rm -rf 4.5.5.zip
-# Download aruco module (optional)
-wget -q https://github.com/opencv/opencv_contrib/archive/refs/tags/4.5.5.zip -O opencv_contrib-4.5.5.zip
-unzip -q opencv_contrib-4.5.5.zip && rm -rf opencv_contrib-4.5.5.zip
-mkdir -p extra && mv opencv_contrib-4.5.5/modules/aruco extra
-rm -rf opencv_contrib-4.5.5
-# Build and install OpenCV
 cd opencv-4.5.5
 mkdir -p build && cd build
 cmake \
