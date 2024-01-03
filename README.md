@@ -9,6 +9,7 @@
 - ROS
 - CUDA 11.8
 - Pytorch
+- high-res-stereo
 - OpenCV *.*
 - OpenVSLAM
 ```
