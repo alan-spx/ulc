@@ -2,6 +2,8 @@
 
 ## OpenVSLAM
 ```
+Tested for Ubuntu 20.04.
+
 # Dependencies
 
 sudo apt update -y
@@ -14,6 +16,120 @@ sudo apt install -y binutils-dev
 sudo apt install -y libyaml-cpp-dev libgflags-dev sqlite3 libsqlite3-dev
 sudo apt install -y libglew-dev
 
+# Eigen
+
+cd ~/src
+wget -q https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.tar.bz2
+tar xf eigen-3.3.7.tar.bz2 && rm -rf eigen-3.3.7.tar.bz2
+cd eigen-3.3.7
+mkdir -p build && cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    ..
+make -j4 && sudo make install
+
+# OpenCV
+
+cd ~/src
+wget -q https://github.com/opencv/opencv/archive/4.5.5.zip
+unzip -q 4.5.5.zip && rm -rf 4.5.5.zip
+# Download aruco module (optional)
+wget -q https://github.com/opencv/opencv_contrib/archive/refs/tags/4.5.5.zip -O opencv_contrib-4.5.5.zip
+unzip -q opencv_contrib-4.5.5.zip && rm -rf opencv_contrib-4.5.5.zip
+mkdir -p extra && mv opencv_contrib-4.5.5/modules/aruco extra
+rm -rf opencv_contrib-4.5.5
+# Build and install OpenCV
+cd opencv-4.5.5
+mkdir -p build && cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    -DBUILD_DOCS=OFF \
+    -DBUILD_EXAMPLES=OFF \
+    -DBUILD_JASPER=OFF \
+    -DBUILD_OPENEXR=OFF \
+    -DBUILD_PERF_TESTS=OFF \
+    -DBUILD_TESTS=OFF \
+    -DBUILD_PROTOBUF=OFF \
+    -DBUILD_opencv_apps=OFF \
+    -DBUILD_opencv_dnn=OFF \
+    -DBUILD_opencv_ml=OFF \
+    -DBUILD_opencv_python_bindings_generator=OFF \
+    -DENABLE_CXX11=ON \
+    -DENABLE_FAST_MATH=ON \
+    -DWITH_EIGEN=ON \
+    -DWITH_FFMPEG=ON \
+    -DWITH_TBB=ON \
+    -DWITH_OPENMP=ON \
+    -DOPENCV_EXTRA_MODULES_PATH=/tmp/extra \
+    ..
+make -j4 && sudo make install
+
+# FBoW 
+
+cd ~/src
+git clone https://github.com/stella-cv/FBoW.git
+cd FBoW
+mkdir build && cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    ..
+make -j4 && sudo make install
+
+# g2o.
+
+cd ~/src
+git clone https://github.com/RainerKuemmerle/g2o.git
+cd g2o
+git checkout 20230223_git
+mkdir build && cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    -DBUILD_SHARED_LIBS=ON \
+    -DBUILD_UNITTESTS=OFF \
+    -DG2O_USE_CHOLMOD=OFF \
+    -DG2O_USE_CSPARSE=ON \
+    -DG2O_USE_OPENGL=OFF \
+    -DG2O_USE_OPENMP=OFF \
+    -DG2O_BUILD_APPS=OFF \
+    -DG2O_BUILD_EXAMPLES=OFF \
+    -DG2O_BUILD_LINKED_APPS=OFF \
+    ..
+make -j4 && sudo make install
+
+# PangolinViewer
+
+cd /tmp
+git clone https://github.com/stevenlovegrove/Pangolin.git
+cd Pangolin
+git checkout eab3d3449a33a042b1ee7225e1b8b593b1b21e3e
+mkdir build && cd build
+cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    -DBUILD_EXAMPLES=OFF \
+    -DBUILD_PANGOLIN_DEPTHSENSE=OFF \
+    -DBUILD_PANGOLIN_FFMPEG=OFF \
+    -DBUILD_PANGOLIN_LIBDC1394=OFF \
+    -DBUILD_PANGOLIN_LIBJPEG=OFF \
+    -DBUILD_PANGOLIN_LIBOPENEXR=OFF \
+    -DBUILD_PANGOLIN_LIBPNG=OFF \
+    -DBUILD_PANGOLIN_LIBTIFF=OFF \
+    -DBUILD_PANGOLIN_LIBUVC=OFF \
+    -DBUILD_PANGOLIN_LZ4=OFF \
+    -DBUILD_PANGOLIN_OPENNI=OFF \
+    -DBUILD_PANGOLIN_OPENNI2=OFF \
+    -DBUILD_PANGOLIN_PLEORA=OFF \
+    -DBUILD_PANGOLIN_PYTHON=OFF \
+    -DBUILD_PANGOLIN_TELICAM=OFF \
+    -DBUILD_PANGOLIN_UVC_MEDIAFOUNDATION=OFF \
+    -DBUILD_PANGOLIN_V4L=OFF \
+    -DBUILD_PANGOLIN_ZSTD=OFF \
+    ..
+make -j4 && sudo make install
 
 ```
 
