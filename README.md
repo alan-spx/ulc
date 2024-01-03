@@ -1,5 +1,17 @@
 # ULC
 
+## Steps
+```
+- Ubuntu 20.04
+- Basic install
+- git clone ulc
+- Chrome, security
+- ROS
+- CUDA 11.8
+- Pytorch
+- OpenCV *.*
+```
+
 ## Boot
 F10 -> UEFI  
 F2 -> BIOS
