@@ -77,7 +77,7 @@ https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-7-on-ubuntu-18-10/
 ```
 
 ## ROS  
-http://wiki.ros.org/melodic/Installation/Ubuntu
+https://wiki.ros.org/noetic/Installation/Ubuntu
 
 ```
 mkdir -p ~/catkin_ws/src  
