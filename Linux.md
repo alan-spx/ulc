@@ -34,3 +34,10 @@ https://learnubuntumate.weebly.com/upgrade-libreoffice.html
 https://ask.libreoffice.org/t/image-as-character-as-default/25152/5
 ```
 
+## Alarm Clock
+```
+sudo add-apt-repository ppa:tatokis/alarm-clock-applet
+sudo apt update
+sudo apt install alarm-clock-applet
+```
+
