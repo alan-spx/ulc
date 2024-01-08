@@ -12,3 +12,13 @@ sudo apt install gnome-tweaks
 Appearance > Themes > Applications > Adwaita-dark
 ```
 
+# Application icon location
+```
+/usr/share/pixmaps/meshlab.png
+```
+
+# Check library
+```
+pkg-config --cflags --libs opencv4
+```
+
