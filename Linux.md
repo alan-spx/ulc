@@ -30,3 +30,7 @@ pkg-config --cflags --libs opencv4
 ```
 https://learnubuntumate.weebly.com/upgrade-libreoffice.html
 ```
+```
+https://ask.libreoffice.org/t/image-as-character-as-default/25152/5
+```
+
