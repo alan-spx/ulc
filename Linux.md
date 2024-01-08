@@ -4,7 +4,7 @@
 rsync -vr from to    # copy files verbose and recursive
 ```
 
-# Tweaks
+# Tweaks - Change Ubuntu Themes
 ```
 sudo apt install gnome-tweaks
 
