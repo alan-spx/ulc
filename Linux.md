@@ -4,28 +4,28 @@
 rsync -vr from to    # copy files verbose and recursive
 ```
 
-### Tweaks - Change Ubuntu Themes
+## Tweaks - Change Ubuntu Themes
 
 ```
 sudo apt install gnome-tweaks
 
-# Open Tweaks
+## Open Tweaks
 Appearance > Themes > Applications > Adwaita-dark
 ```
 
-# Application icon location
+## Application icon location
 
 ```
 /usr/share/pixmaps/meshlab.png
 ```
 
-# Check library
+## Check library
 
 ```
 pkg-config --cflags --libs opencv4
 ```
 
-# Update Libreoffice Writer
+## Update Libreoffice Writer
 
 ```
 https://learnubuntumate.weebly.com/upgrade-libreoffice.html
