@@ -28,7 +28,7 @@ pkg-config --cflags --libs opencv4
 ## Update Libreoffice Writer
 
 ```
-https://learnubuntumate.weebly.com/upgrade-libreoffice.html
+https://ubuntuhandbook.org/index.php/2021/03/libreoffice-7-1-2-released-install-ubuntu-20-04-18-04/
 ```
 ```
 https://ask.libreoffice.org/t/image-as-character-as-default/25152/5
