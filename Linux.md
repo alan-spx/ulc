@@ -9,8 +9,11 @@ rsync -vr from to    # copy files verbose and recursive
 ```
 sudo apt install gnome-tweaks
 
-## Open Tweaks
+## Change Themes
 Appearance > Themes > Applications > Adwaita-dark
+
+## Top Bar Weekday
+Top Bar > Weekday
 ```
 
 ## Application icon location
