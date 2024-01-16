@@ -38,9 +38,17 @@ https://ask.libreoffice.org/t/image-as-character-as-default/25152/5
 ```
 
 ## Alarm Clock
+
 ```
 sudo add-apt-repository ppa:tatokis/alarm-clock-applet
 sudo apt update
 sudo apt install alarm-clock-applet
+```
+
+## Change background to solid color
+
+```
+gsettings set org.gnome.desktop.background picture-uri none
+gsettings set org.gnome.desktop.background primary-color '#000000'
 ```
 
