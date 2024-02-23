@@ -22,7 +22,7 @@ https://www.theimagingsource.com/products/industrial-cameras/usb-3.0-color/dfk33
 **DFM 37UX226-ML**  
 https://www.theimagingsource.com/en-us/product/board/37u/dfm37ux226ml/
 
-**Lenses**  
+**LENSES**  
 https://www.theimagingsource.com/en-us/product/optic/high-end/
 
 # Teledyne 
