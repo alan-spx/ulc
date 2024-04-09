@@ -62,3 +62,11 @@ gsettings set org.gnome.desktop.background primary-color '#000000'
 /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 /usr/lib/x86_64-linux-gnu/libpcl_io.so.1.10.0
 ```
+
+## 22.04 disable TRASH icon on dock
+```
+sudo apt install -y dconf-editor
+```
+Search trash
+
+## 
