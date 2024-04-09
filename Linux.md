@@ -67,6 +67,6 @@ gsettings set org.gnome.desktop.background primary-color '#000000'
 ```
 sudo apt install -y dconf-editor
 ```
-Search trash
+Search 'trash'
 
 ## 
