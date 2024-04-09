@@ -52,3 +52,8 @@ gsettings set org.gnome.desktop.background picture-uri none
 gsettings set org.gnome.desktop.background primary-color '#000000'
 ```
 
+## Folders
+
+```
+/usr/include/opencv4/opencv2
+```
