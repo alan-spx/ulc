@@ -115,4 +115,10 @@ python run_nerf.py --config configs/st3d.txt
 history
 ```
 
+## Personal installation
+
+```
+Ubuntu 22.04
+OpenCV 4.5.5
+```
 
