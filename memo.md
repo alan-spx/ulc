@@ -122,3 +122,10 @@ Ubuntu 22.04
 OpenCV 4.5.5
 ```
 
+## Keychron Linux Function Keys
+
+```
+https://mikeshade.com/posts/keychron-linux-function-keys/
+```
+
+
