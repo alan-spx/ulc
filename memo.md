@@ -127,5 +127,10 @@ OpenCV 4.5.5
 ```
 https://mikeshade.com/posts/keychron-linux-function-keys/
 ```
-
+```
+Fn + B (Hold both):
+Two Rows Backlight off & the Other On = 0~30% Power
+One Row Backlight off & the Other On= 30%~70% Power
+All Backlight On = 70%~100% Power
+```
 
