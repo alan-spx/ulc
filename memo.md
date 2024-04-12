@@ -125,6 +125,10 @@ OpenCV 4.5.5
 ## Keychron Linux Function Keys
 
 ```
+- Set the keyboard to Windows mode via the side switch
+- Use Fn + X + L (hold for 4 seconds) to set the function key row to "Function" mode. (usually all that's necessary on Windows)
+- echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode
+
 https://mikeshade.com/posts/keychron-linux-function-keys/
 ```
 ```
