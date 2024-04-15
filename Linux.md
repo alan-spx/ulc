@@ -70,7 +70,7 @@ sudo apt install -y dconf-editor
 Search 'trash'
 
 ## New Fonts
-ms_fonts
+**ms_fonts**
 ```
 sudo mkdir /usr/local/share/fonts/ms_fonts
 
