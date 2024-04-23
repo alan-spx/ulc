@@ -128,7 +128,6 @@ OpenCV 4.5.5
 sudo vim /etc/modprobe.d/hid_apple.conf
 options hid_apple fnmode=2
 sudo update-initramfs -u && reboot
-
 ```
 
 ```
