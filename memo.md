@@ -125,21 +125,13 @@ OpenCV 4.5.5
 ## Keychron Linux Function Keys
 
 ```
-echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode
-Fn + X + L (hold for 4 seconds)
+sudo vim /etc/modprobe.d/hid_apple.conf
+options hid_apple fnmode=2
+sudo update-initramfs -u && reboot
+
 ```
 
 ```
-- Set the keyboard to Windows mode via the side switch
-- Use Fn + X + L (hold for 4 seconds) to set the function key row to "Function" mode. (usually all that's necessary on Windows)
-- echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode
-
-https://mikeshade.com/posts/keychron-linux-function-keys/
-```
-```
-Fn + B (Hold both):
-Two Rows Backlight off & the Other On = 0~30% Power
-One Row Backlight off & the Other On= 30%~70% Power
-All Backlight On = 70%~100% Power
+https://www.reddit.com/r/Keychron/comments/lgotvh/keychron_k3_ubuntu_fn_keys/
 ```
 
