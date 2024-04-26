@@ -83,4 +83,23 @@ sudo chmod 755 /usr/local/share/fonts/ms_fonts
 sudo fc-cache -fv
 ```
 
+## Personal installation
+
+```
+Ubuntu 22.04
+OpenCV 4.5.5
+```
+
+## Keychron Linux Function Keys
+
+```
+sudo vim /etc/modprobe.d/hid_apple.conf
+options hid_apple fnmode=2
+sudo update-initramfs -u && reboot
+```
+
+```
+https://www.reddit.com/r/Keychron/comments/lgotvh/keychron_k3_ubuntu_fn_keys/
+```
+
 ## 
