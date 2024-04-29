@@ -2,6 +2,9 @@
 
 ```
 rsync -vr from to    # copy files verbose and recursive
+
+sudo date --set "29 Apr 2024 18:08:40"
+
 ```
 
 ## Tweaks - Change Ubuntu Themes
