@@ -120,4 +120,14 @@ sudo update-initramfs -u && reboot
 https://www.reddit.com/r/Keychron/comments/lgotvh/keychron_k3_ubuntu_fn_keys/
 ```
 
-## 
+## Chrome keyring
+
+```
+- rm ~/.local/share/keyrings/*
+- Now open Chrome; if it asks you for your password, do not enter one.
+- Choose Continue each time and ignore any warnings.
+
+https://askubuntu.com/questions/31786/chrome-asks-for-password-to-unlock-keyring-on-startup
+```
+
+##
