@@ -94,7 +94,7 @@ OpenCV 4.5.5
 ```
 ```
 # OpenCV dependencies
-sudo apt install -y libgtk-3-dev ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libavresample-dev libtbb-dev
+sudo apt install -y libgtk-3-dev ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libtbb-dev
 
 cd && cd src
 wget -q https://github.com/opencv/opencv/archive/4.5.5.zip
