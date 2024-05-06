@@ -34,7 +34,7 @@ git clone https://github.com/alan-spx/ulc
 ## sudo
 ```
 sudo apt update  
-sudo apt install -y ssh geany pcmanfm net-tools git gitk terminator  
+sudo apt install -y ssh geany pcmanfm net-tools git gitk terminator cmake build-essential 
 ```
 
 ## ZscalerRootCerts
