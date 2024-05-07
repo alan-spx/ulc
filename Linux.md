@@ -5,6 +5,8 @@ rsync -vr from to    # copy files verbose and recursive
 
 sudo date --set "29 Apr 2024 18:08:40"
 
+mogrify -format jpg -- *  # save all images in the current folder to JPG format
+
 ```
 
 ## Tweaks - Change Ubuntu Themes
