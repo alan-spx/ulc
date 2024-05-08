@@ -150,7 +150,6 @@ https://askubuntu.com/questions/31786/chrome-asks-for-password-to-unlock-keyring
 ```
 touch ~/.local/share/applications/shutdown-for-dock.desktop
 gedit ~/.local/share/applications/shutdown-for-dock.desktop
-
 ```
 
 [Desktop Entry]  
