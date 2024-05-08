@@ -145,4 +145,20 @@ https://www.reddit.com/r/Keychron/comments/lgotvh/keychron_k3_ubuntu_fn_keys/
 https://askubuntu.com/questions/31786/chrome-asks-for-password-to-unlock-keyring-on-startup
 ```
 
-##
+## Shutdown button for Ubuntu dock
+
+```
+touch ~/.local/share/applications/shutdown-for-dock.desktop
+gedit ~/.local/share/applications/shutdown-for-dock.desktop
+
+```
+
+[Desktop Entry]  
+Name=Shutdown for Dock  
+Exec=gnome-session-quit --power-off  
+Comment=Shutdown button for Ubuntu dock  
+Terminal=false  
+Type=Application  
+Icon=system-shutdown  
+
+## 
