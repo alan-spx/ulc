@@ -158,6 +158,6 @@ Exec=gnome-session-quit --power-off
 Comment=Shutdown button for Ubuntu dock  
 Terminal=false  
 Type=Application  
-Icon=system-shutdown  
+Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
 
 ## 
