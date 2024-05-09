@@ -149,7 +149,7 @@ https://askubuntu.com/questions/31786/chrome-asks-for-password-to-unlock-keyring
 
 ```
 touch ~/.local/share/applications/shutdown-for-dock.desktop
-gedit ~/.local/share/applications/shutdown-for-dock.desktop
+geany ~/.local/share/applications/shutdown-for-dock.desktop
 ```
 
 [Desktop Entry]  
@@ -159,5 +159,7 @@ Comment=Shutdown button for Ubuntu dock
 Terminal=false  
 Type=Application  
 Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
+
+Icon=system-shutdown  
 
 ## 
