@@ -162,11 +162,11 @@ Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png
 
 Icon=system-shutdown  
 
-## Ubuntu Google Pinyin 
+## Ubuntu Common
 ```
-Input Method Configuration > Global Config > Candidate Word Number: 10
+Chrome
+KR CN input: Input Method Configuration > Global Config > Candidate Word Number: 10
+Shutdown button
 ```
-
-## Chrome, KR CN input
 
 ## 
