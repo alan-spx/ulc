@@ -166,10 +166,10 @@ Icon=system-shutdown
 ```
 Chrome
 
-KR CN input: Input Method Configuration > Global Config > Candidate Word Number: 10
 sudo apt-get update
 sudo apt-get install fcitx-googlepinyin
 sudo apt-get install fcitx-hangul
+KR CN input: Input Method Configuration > Global Config > Candidate Word Number: 10
 https://hhddkk.wordpress.com/2016/06/02/install-google-pinyin-in-ubuntu-16-04/
 https://m.blog.naver.com/opusk/220986268503
 
