@@ -380,16 +380,18 @@ sudo make install
 
 ## Geany
 ```
-Change Color Scheme  
-https://github.com/geany/geany-themes  
-https://www.geany.org/download/themes/  
+Change Color Scheme
+Theme: InkPot
+
+wget https://raw.github.com/geany/geany-themes/master/colorschemes/inkpot.conf
 
 Download to  
 ~/.config/geany/colorschemes/inkpot.conf  
 In Geany  
 View/Change Color Scheme  
 
-Theme: InkPot  
+https://github.com/geany/geany-themes  
+https://www.geany.org/download/themes/
 ```
 
 ## Ubuntu Icon Entry
