@@ -141,7 +141,8 @@ Chrome keyring
 - rm ~/.local/share/keyrings/*
 - Now open Chrome; if it asks you for your password, do not enter one.
 - Choose Continue each time and ignore any warnings.
-
+```
+```
 KR CN input
 sudo apt-get update
 sudo apt-get install fcitx-googlepinyin
