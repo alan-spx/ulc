@@ -135,23 +135,6 @@ sudo update-initramfs -u && reboot
 https://www.reddit.com/r/Keychron/comments/lgotvh/keychron_k3_ubuntu_fn_keys/
 ```
 
-## Shutdown button for Ubuntu dock
-
-```
-touch ~/.local/share/applications/shutdown-for-dock.desktop
-geany ~/.local/share/applications/shutdown-for-dock.desktop
-```
-
-[Desktop Entry]  
-Name=Shutdown for Dock  
-Exec=gnome-session-quit --power-off  
-Comment=Shutdown button for Ubuntu dock  
-Terminal=false  
-Type=Application  
-Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
-
-Icon=system-shutdown  
-
 ## Ubuntu Common
 ```
 Chrome
@@ -167,8 +150,22 @@ sudo apt-get install fcitx-hangul
 - Input Method Configuration > Global Config > Candidate Word Number: 10
 https://hhddkk.wordpress.com/2016/06/02/install-google-pinyin-in-ubuntu-16-04/
 https://m.blog.naver.com/opusk/220986268503
+```
 
-Shutdown button
+### Shutdown button for Ubuntu dock
+```
+touch ~/.local/share/applications/shutdown-for-dock.desktop
+geany ~/.local/share/applications/shutdown-for-dock.desktop
+
+[Desktop Entry]  
+Name=Shutdown for Dock  
+Exec=gnome-session-quit --power-off  
+Comment=Shutdown button for Ubuntu dock  
+Terminal=false  
+Type=Application  
+Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
+
+Icon=system-shutdown
 ```
 
 ## 
