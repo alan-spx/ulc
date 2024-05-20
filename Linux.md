@@ -122,6 +122,12 @@ cmake ..
 make -j4
 sudo make install
 ```
+```
+python3 live_capture.py Error
+
+pip3 install --upgrade pip
+pip3 install opencv-contrib-python
+```
 
 ## Keychron Linux Function Keys
 
