@@ -1,17 +1,17 @@
-### Python-OpenCV
-```
-resize
+## Python-OpenCV
 
+### - resize
+```
 height, width = img.shape[:2]
 height_half = int(height / 2)
 width_half = int(width / 2)
 img_half = cv2.resize(img, (width_half, height_half), cv2.INTER_LINEAR)
 ```
 
-### C++OpenCV
-```
-Draw
+## C++OpenCV
 
+### - Draw
+```
 cv::Point: <u,v> or <col, row> pair
 
 Vector2d uvd;
@@ -31,7 +31,7 @@ pts.push_back(Point(t.e2.p1.x, t.e2.p1.y));
 pts.push_back(Point(t.e3.p1.x, t.e3.p1.y));
 fillConvexPoly(img_g, pts, COLOR_BLK);
 ```
-
+### - size, rect, resize
 ```
 size, rect, resize
 
@@ -42,7 +42,7 @@ resize(img, rimg, Size(cols, rows));
 resize(img, rimg, Size(), 2, 2);
 ```
 
-### Python-Hz  
+## Python-Hz  
 ```
 import time
 
@@ -53,7 +53,7 @@ time_interval = time_2 - time_1
 print("{:2.3f} Hz".format(1/time_interval))
 ```
 
-### C-Hz
+## C-Hz
 ```
 #include <iostream>
 #include <chrono>
@@ -74,27 +74,27 @@ int main() {
 }
 ```
 
-### 
+## 
 ```
 
 ```
 
-### 
+## 
 ```
 
 ```
 
-### 
+## 
 ```
 
 ```
 
-### 
+## 
 ```
 
 ```
 
-### 
+## 
 ```
 
 ```
