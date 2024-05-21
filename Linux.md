@@ -177,4 +177,9 @@ Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png
 Icon=system-shutdown
 ```
 
+## LibreOffice Writer Dark Mode
+```
+Tools > Options > LibreOffice > Application Colors > General > Document background > Black
+```
+
 ## 
