@@ -53,7 +53,7 @@ time_interval = time_2 - time_1
 print("{:2.3f} Hz".format(1/time_interval))
 ```
 
-## C-Hz
+## C++Hz
 ```
 #include <iostream>
 #include <chrono>
@@ -72,21 +72,6 @@ int main() {
     std::cout << "for took " << fp_ms.count() << " ms" << std::endl;
     std::cout << "for took " << fp_us.count() << " us" << std::endl;
 }
-```
-
-## 
-```
-
-```
-
-## 
-```
-
-```
-
-## 
-```
-
 ```
 
 ## 
