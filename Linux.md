@@ -108,7 +108,7 @@ cmake ..
 make -j4
 sudo make install
 ```
-OpenCV 4.5.5
+### OpenCV 4.5.5
 ```
 # OpenCV dependencies
 sudo apt install -y libgtk-3-dev ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libtbb-dev
