@@ -94,6 +94,7 @@ sudo fc-cache -fv
 Ubuntu 22.04
 OpenCV 4.5.5
 ```
+### Eigen
 ```
 # eigen dependencies
 sudo apt install -y gfortran
@@ -107,6 +108,7 @@ cmake ..
 make -j4
 sudo make install
 ```
+OpenCV 4.5.5
 ```
 # OpenCV dependencies
 sudo apt install -y libgtk-3-dev ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libtbb-dev
