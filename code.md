@@ -74,9 +74,10 @@ int main() {
 }
 ```
 
-## 
+## Python-by-name
 ```
-
+#!/usr/bin/python3
+chmod +x script_name.py
 ```
 
 ## 
