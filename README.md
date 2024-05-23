@@ -18,13 +18,13 @@
 F10 -> UEFI  
 F2 -> BIOS
 ```
-dconf write /org/gnome/desktop/interface/clock-show-date 'true'
 Power -> Secondary Power Settings -> After Power Failure -> Power On  
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 ```
 ### - Power on
 ```
 power never  
+dconf write /org/gnome/desktop/interface/clock-show-date 'true'
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 ```
 
 
