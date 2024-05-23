@@ -18,8 +18,15 @@
 F10 -> UEFI  
 F2 -> BIOS
 ```
+dconf write /org/gnome/desktop/interface/clock-show-date 'true'
 Power -> Secondary Power Settings -> After Power Failure -> Power On  
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 ```
+### - Power on
+```
+power never  
+```
+
 
 ## akcite/ulc
 ```
@@ -57,12 +64,6 @@ sudo apt install -y ./google-chrome-stable_current_amd64.deb
 Chrome settings:  
 ```
 Security --> Manage certificates --> Authorities --> Import  
-```
-
-## Power on
-power never  
-```
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 ```
 
 ## New cmake
