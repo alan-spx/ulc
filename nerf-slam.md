@@ -26,7 +26,7 @@ python3 --version
 cd /usr/lib/python3/dist-packages
 sudo cp apt_pkg.cpython-38-x86_64-linux-gnu.so apt_pkg.so
 
-sudo apt install python3-pip
+sudo apt install -y python3-pip
 
 Pytorch
 pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
@@ -42,12 +42,6 @@ git submodule update --init --recursive
 ```
 
 ```
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
-
-
-
-sudo apt install -y python3-pip
-
 ```
 
 
