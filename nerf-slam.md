@@ -170,7 +170,7 @@ python setup.py install
 ```
 export PYTHONPATH=./thirdparty/instant-ngp/build_ngp/
 
-python ./examples/slam_demo.py --dataset_dir=./Datasets/Replica/office0 --dataset_name=nerf --buffer=100 --slam --parallel_run --img_stride=2 --fusion='nerf' --multi_gpu --gui
+python ./examples/slam_demo.py --dataset_dir=./Datasets/Replica/office0 --dataset_name=nerf --buffer=100 --slam --parallel_run --img_stride=2 --fusion='sigma' --gui
 ```
 
 
