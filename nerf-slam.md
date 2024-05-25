@@ -86,7 +86,7 @@ sudo apt-get install libboost-all-dev libtbb-dev
 mkdir build
 cd build
 cmake ..
-make check (optional, runs unit tests)
+make check (-j6) (optional, runs unit tests)
 sudo make install
 
 # https://github.com/borglab/gtsam/tree/develop/python
