@@ -48,6 +48,8 @@ pip install --upgrade pip
 # python is python3
 # https://askubuntu.com/questions/320996/how-to-make-python-program-command-execute-python-3
 ```
+
+## Python venv
 ```
 sudo apt-get install python3.9-venv
 
