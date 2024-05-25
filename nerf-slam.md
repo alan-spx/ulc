@@ -43,6 +43,9 @@ cd /usr/lib/python3/dist-packages
 sudo cp apt_pkg.cpython-38-x86_64-linux-gnu.so apt_pkg.so
 
 sudo apt install -y python3-pip
+
+# python is python3
+# https://askubuntu.com/questions/320996/how-to-make-python-program-command-execute-python-3
 ```
 ```
 sudo apt-get install python3.9-venv
