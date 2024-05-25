@@ -46,6 +46,8 @@ sudo apt install -y python3-pip
 ```
 ```
 sudo apt-get install python3.9-venv
+
+cd
 python3 -m venv venv
 source venv/bin/activate
 ```
