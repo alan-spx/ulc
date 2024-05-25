@@ -50,11 +50,11 @@ pip install -r ./thirdparty/gtsam/python/requirements.txt
 ```
 ```
 cmake version 3.29.3
-apt remove cmake -y
+sudo apt remove cmake -y
 pip install cmake --upgrade
 sudo ln -s /home/cv/.local/bin/cmake /usr/bin/cmake 
 
-cmake ./thirdparty/instant-ngp -B build_ngp
+# cmake ./thirdparty/instant-ngp -B build_ngp
 CUDACXX=/usr/local/cuda-11.8/bin/nvcc cmake ./thirdparty/instant-ngp -B build_ngp
 
 ```
