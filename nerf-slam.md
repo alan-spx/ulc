@@ -61,7 +61,7 @@ python3 -m venv venv
 2. Set the `include-system-site-packages` to `true` and save the change
 3. Reactivate the virtual environment.
 
-# Edit ~/.bashrc
+# Add to the end of ~/.bashrc
 source venv/bin/activate
 
 source ~/.bashrc
