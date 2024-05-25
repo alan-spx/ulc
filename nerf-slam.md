@@ -83,6 +83,7 @@ python3 -m pip install open3d
 ## Python requirements
 ```
 pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-2.0.0+cu118.html
+pip install colored-glog
 
 pip install -r requirements.txt
 pip install -r ./thirdparty/gtsam/python/requirements.txt
@@ -149,6 +150,17 @@ cd ../../..
 python setup.py install
 
 ```
+
+## Sample Data
+```
+./scripts/download_replica_sample.bash
+```
+
+## Run
+```
+python ./examples/slam_demo.py --dataset_dir=./datasets/Replica/office0 --dataset_name=nerf --buffer=100 --slam --parallel_run --img_stride=2 --fusion='nerf' --multi_gpu --gui
+```
+
 
 
 
