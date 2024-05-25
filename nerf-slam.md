@@ -69,14 +69,27 @@ cmake . -B build_ngp
 cmake --build build_ngp --config RelWithDebInfo 
 
 # https://github.com/NVlabs/instant-ngp/issues/1142
+```
 
-sudo apt-get install libboost-all-dev
-cd ./thirdparty/gtsam
-cmake . -DGTSAM_BUILD_PYTHON=1 -B build_gtsam
-^^^ error
-cmake --build build_gtsam --config RelWithDebInfo 
-cd build_gtsam
-make python-install
+```
+sudo apt-get install libboost-all-dev libtbb-dev
+
+# https://github.com/ToniRV/NeRF-SLAM/issues/7
+# Build from source
+# https://github.com/borglab/gtsam
+mkdir build
+cd build
+cmake ..
+make check (optional, runs unit tests)
+sudo make install
+
+# https://github.com/borglab/gtsam/tree/develop/python
+cd ..
+pip install -r python/dev_requirements.txt
+cd build
+cmake .. -DGTSAM_BUILD_PYTHON=1 -DGTSAM_PYTHON_VERSION=3.9.19
+make -j6
+
 
 ```
 
