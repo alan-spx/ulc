@@ -110,10 +110,13 @@ sudo apt-get install -y libboost-all-dev libtbb-dev
 # https://github.com/ToniRV/NeRF-SLAM/issues/7
 # Build from source
 # https://github.com/borglab/gtsam
+
+git clone https://github.com/borglab/gtsam.git
+cd gtsam
 mkdir build
 cd build
 cmake ..
-make check (-j6) (optional, runs unit tests)
+ make -j6 check (optional, runs unit tests)
 sudo make install
 
 # https://github.com/borglab/gtsam/tree/develop/python
