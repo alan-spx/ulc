@@ -72,7 +72,7 @@ sudo apt install libglew-dev
 
 cd ./thirdparty/instant-ngp
 cmake . -B build_ngp
-cmake --build build_ngp --config RelWithDebInfo 
+cmake --build build_ngp --config RelWithDebInfo -j6
 
 # https://github.com/NVlabs/instant-ngp/issues/1142
 ```
