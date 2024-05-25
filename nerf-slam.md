@@ -150,7 +150,9 @@ python setup.py install
 
 # cd to Datasets
 # unzip replica_sample.zip
+
 # move office0 to Replica
+# move cam_params.json to Replica
 ```
 
 ## Change source code
@@ -172,8 +174,3 @@ export PYTHONPATH=./thirdparty/instant-ngp/build_ngp/
 
 python ./examples/slam_demo.py --dataset_dir=./Datasets/Replica/office0 --dataset_name=nerf --buffer=100 --slam --parallel_run --img_stride=2 --fusion='sigma' --gui
 ```
-
-
-
-
-
