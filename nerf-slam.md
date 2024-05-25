@@ -120,24 +120,17 @@ cmake --build build_ngp --config RelWithDebInfo -j6
 sudo apt-get install -y libboost-all-dev libtbb-dev
 
 # https://github.com/ToniRV/NeRF-SLAM/issues/7
+# https://github.com/borglab/gtsam/issues/1298
+
 # Build from source
 # https://github.com/borglab/gtsam
 
 git clone https://github.com/borglab/gtsam.git
 cd gtsam
-mkdir build
-cd build
-cmake ..
- make -j6 check (optional, runs unit tests)
-sudo make install
 
-# https://github.com/borglab/gtsam/tree/develop/python
-cd ..
-pip install -r python/dev_requirements.txt
-cd build
-cmake .. -DGTSAM_BUILD_PYTHON=1 -DGTSAM_PYTHON_VERSION=3.9.19
-make -j6
-
+cmake . -DGTSAM_BUILD_PYTHON=1 -DGTSAM_PYTHON_VERSION=3.9.19 -B build_gtsam
+cmake --build build_gtsam --config RelWithDebInfo -j6
+cd build_gtsam
 make python-install
 ```
 
