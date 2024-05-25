@@ -97,7 +97,7 @@ sudo apt install -y xorg-dev libx11-dev libglew-dev
 # NO -j for multi-thread
 
 cd ./thirdparty/instant-ngp
-cmake . -B build_ngp
+cmake . -B build_ngp -DCMAKE_CUDA_COMPILER=$(which nvcc)
 cmake --build build_ngp --config RelWithDebInfo -j6
 
 # https://github.com/NVlabs/instant-ngp/issues/1142
