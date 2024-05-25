@@ -26,7 +26,9 @@ cd /usr/lib/python3/dist-packages
 sudo cp apt_pkg.cpython-38-x86_64-linux-gnu.so apt_pkg.so
 
 sudo apt install -y python3-pip
+```
 
+```
 Pytorch
 pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
 
