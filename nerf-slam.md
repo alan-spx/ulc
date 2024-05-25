@@ -57,6 +57,7 @@ sudo apt remove cmake -y
 pip install cmake --upgrade
 sudo ln -s /home/cv/.local/bin/cmake /usr/bin/cmake 
 
+# ~/.bashrc
 export PATH="/usr/local/cuda/bin:$PATH"
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ```
