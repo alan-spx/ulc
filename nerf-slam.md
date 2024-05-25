@@ -43,6 +43,7 @@ cd /usr/lib/python3/dist-packages
 sudo cp apt_pkg.cpython-38-x86_64-linux-gnu.so apt_pkg.so
 
 sudo apt install -y python3-pip
+pip install --upgrade pip
 
 # python is python3
 # https://askubuntu.com/questions/320996/how-to-make-python-program-command-execute-python-3
@@ -63,7 +64,7 @@ pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https
 ## Open3D
 ```
 # Install open3d by the following first
-python3 -m pip install --user open3d
+python3 -m pip install open3d
 
 pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-2.0.0+cu118.html
 
