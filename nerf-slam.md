@@ -1,11 +1,9 @@
 ## Repo
-
 ```
 https://github.com/ToniRV/NeRF-SLAM
 ```
 
 ## Ubuntu
-
 ```
 Ubuntu 20.04
 ```
@@ -21,6 +19,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
+## Source Code
 Turn off the wired connection
 
 ```
