@@ -57,7 +57,11 @@ cd
 python3 -m venv venv
 
 # ~/.bashrc
-source venv/bin/activate
+# source venv/bin/activate
+
+source ~/.bashrc
+
+# deactivate
 ```
 
 ## Pytorch
