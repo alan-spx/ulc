@@ -8,9 +8,6 @@ https://github.com/ToniRV/NeRF-SLAM
 
 ```
 Ubuntu 20.04
-
-cmake version 3.29.3
-
 CUDA 11.8
 ```
 
@@ -42,6 +39,20 @@ git submodule update --init --recursive
 ```
 
 ```
+# Install open3d by the following first
+python3 -m pip install --user open3d
+
+pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-2.0.0+cu118.html
+
+pip install -r requirements.txt
+pip install -r ./thirdparty/gtsam/python/requirements.txt
+
 ```
+```
+cmake version 3.29.3
+cmake ./thirdparty/instant-ngp -B build_ngp
+```
+
+
 
 
