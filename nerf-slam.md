@@ -4,13 +4,13 @@
 https://github.com/ToniRV/NeRF-SLAM
 ```
 
-## Install
+## Ubuntu
 
 ```
 Ubuntu 20.04
 ```
 
-### - CUDA 11.8
+## CUDA 11.8
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
 sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -29,7 +29,7 @@ cd NeRF-SLAM
 git submodule update --init --recursive
 ```
 
-### - Python 3.9
+## Python 3.9
 ```
 # https://askubuntu.com/questions/1318846/how-do-i-install-python-3-9
 
@@ -51,12 +51,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### - Pytorch
+## Pytorch
 ```
 pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
 ```
 
-### - Open3D
+## Open3D
 ```
 # Install open3d by the following first
 python3 -m pip install --user open3d
@@ -68,7 +68,7 @@ pip install -r ./thirdparty/gtsam/python/requirements.txt
 
 ```
 
-### - cmake
+## cmake
 ```
 cmake version 3.29.3
 sudo apt remove cmake -y
@@ -80,7 +80,7 @@ export PATH="/usr/local/cuda/bin:$PATH"
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ```
 
-### - instant-ngp
+## instant-ngp
 ```
 sudo apt install -y xorg-dev libx11-dev
 sudo apt install libglew-dev
@@ -94,7 +94,7 @@ cmake --build build_ngp --config RelWithDebInfo -j6
 # https://github.com/NVlabs/instant-ngp/issues/1142
 ```
 
-### - gtsam
+## gtsam
 ```
 sudo apt-get install libboost-all-dev libtbb-dev
 
