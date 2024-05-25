@@ -147,11 +147,28 @@ python setup.py install
 ## Sample Data
 ```
 ./scripts/download_replica_sample.bash
+
+# cd to Datasets
+# unzip replica_sample.zip
+# move office0 to Replica
+```
+
+## Change source code
+```
+# slam/vio_slam.py
+-    naive_pose = gtsam.Pose3.identity()
++    naive_pose = gtsam.Pose3.Identity()
+
+# slam/visual_frontends/visual_frontend.py
+-    q = pose.rotation().quaternion()
+-    return torch.tensor([t[0], t[1], t[2], q[1], q[2], q[3], q[0]], device=device, dtype=dtype)
++    q = pose.rotation().toQuaternion()
++    return torch.tensor([t[0], t[1], t[2], q.x(), q.y(), q.z(), q.w()], device=device, dtype=dtype) 
 ```
 
 ## Run
 ```
-python ./examples/slam_demo.py --dataset_dir=./datasets/Replica/office0 --dataset_name=nerf --buffer=100 --slam --parallel_run --img_stride=2 --fusion='nerf' --multi_gpu --gui
+python ./examples/slam_demo.py --dataset_dir=./Datasets/Replica/office0 --dataset_name=nerf --buffer=100 --slam --parallel_run --img_stride=2 --fusion='nerf' --multi_gpu --gui
 ```
 
 
