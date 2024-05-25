@@ -105,7 +105,7 @@ cmake --build build_ngp --config RelWithDebInfo -j6
 
 ## gtsam
 ```
-sudo apt-get install libboost-all-dev libtbb-dev
+sudo apt-get install -y libboost-all-dev libtbb-dev
 
 # https://github.com/ToniRV/NeRF-SLAM/issues/7
 # Build from source
