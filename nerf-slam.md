@@ -66,6 +66,8 @@ pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https
 # Install open3d by the following first
 python3 -m pip install open3d
 ```
+
+## Python requirements
 ```
 pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-2.0.0+cu118.html
 
