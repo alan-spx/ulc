@@ -43,9 +43,9 @@ cd /usr/lib/python3/dist-packages
 sudo cp apt_pkg.cpython-38-x86_64-linux-gnu.so apt_pkg.so
 
 sudo apt install -y python3-pip
+```
+```
 sudo apt-get install python3.9-venv
-```
-```
 python3 -m venv venv
 source venv/bin/activate
 ```
