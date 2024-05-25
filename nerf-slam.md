@@ -56,8 +56,13 @@ sudo apt-get install python3.9-venv
 cd
 python3 -m venv venv
 
-# ~/.bashrc
-# source venv/bin/activate
+# https://stackoverflow.com/questions/64278198/error-can-not-perform-a-user-install-user-site-packages-are-not-visible-in
+1. Go to the `pyvenv.cfg` file in the Virtual environment folder
+2. Set the `include-system-site-packages` to `true` and save the change
+3. Reactivate the virtual environment.
+
+# Edit ~/.bashrc
+source venv/bin/activate
 
 source ~/.bashrc
 
@@ -131,11 +136,6 @@ pip install -r python/dev_requirements.txt
 cd build
 cmake .. -DGTSAM_BUILD_PYTHON=1 -DGTSAM_PYTHON_VERSION=3.9.19
 make -j6
-
-# https://stackoverflow.com/questions/64278198/error-can-not-perform-a-user-install-user-site-packages-are-not-visible-in
-# 1. Go to the `pyvenv.cfg` file in the Virtual environment folder
-# 2. Set the `include-system-site-packages` to `true` and save the change
-# 3. Reactivate the virtual environment.
 
 make python-install
 ```
