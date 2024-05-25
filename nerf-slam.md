@@ -19,7 +19,7 @@ sudo apt install python3.9-dev
 
 ls -la /usr/bin/python3
 sudo rm /usr/bin/python3
-sudo ln -s python3.10 /usr/bin/python3
+sudo ln -s python3.9 /usr/bin/python3
 python3 --version
 
 cd /usr/lib/python3/dist-packages
@@ -92,8 +92,12 @@ pip install -r python/dev_requirements.txt
 cd build
 cmake .. -DGTSAM_BUILD_PYTHON=1 -DGTSAM_PYTHON_VERSION=3.9.19
 make -j6
+make python-install
+```
 
-
+```
+cd ../../..
+python setup.py install
 ```
 
 
