@@ -8,7 +8,11 @@ https://github.com/ToniRV/NeRF-SLAM
 
 ```
 Ubuntu 20.04
+
+cmake version 3.29.3
+
 CUDA 11.8
+
 
 Python 3.10
 https://gist.github.com/rutcreate/c0041e842f858ceb455b748809763ddb
