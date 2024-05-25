@@ -13,7 +13,7 @@ CUDA 11.8
 
 ```
 Python 3.9
-https://askubuntu.com/questions/1318846/how-do-i-install-python-3-9
+# https://askubuntu.com/questions/1318846/how-do-i-install-python-3-9
 
 sudo apt install python3.9-dev
 
@@ -50,6 +50,7 @@ pip install -r requirements.txt
 pip install -r ./thirdparty/gtsam/python/requirements.txt
 
 ```
+
 ```
 cmake version 3.29.3
 sudo apt remove cmake -y
@@ -58,7 +59,9 @@ sudo ln -s /home/cv/.local/bin/cmake /usr/bin/cmake
 
 export PATH="/usr/local/cuda/bin:$PATH"
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+```
 
+```
 sudo apt install -y xorg-dev libx11-dev
 sudo apt install libglew-dev
 
