@@ -80,7 +80,7 @@ pip install -r ./thirdparty/gtsam/python/requirements.txt
 
 ## cmake
 ```
-cmake version 3.29.3
+# cmake version 3.29.3
 sudo apt remove cmake -y
 pip install cmake --upgrade
 sudo ln -s /home/cv/.local/bin/cmake /usr/bin/cmake 
@@ -92,8 +92,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
 ## instant-ngp
 ```
-sudo apt install -y xorg-dev libx11-dev
-sudo apt install libglew-dev
+sudo apt install -y xorg-dev libx11-dev libglew-dev
 
 # NO -j for multi-thread
 
