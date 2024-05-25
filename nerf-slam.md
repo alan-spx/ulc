@@ -54,8 +54,10 @@ sudo apt remove cmake -y
 pip install cmake --upgrade
 sudo ln -s /home/cv/.local/bin/cmake /usr/bin/cmake 
 
-# cmake ./thirdparty/instant-ngp -B build_ngp
-CUDACXX=/usr/local/cuda-11.8/bin/nvcc cmake ./thirdparty/instant-ngp -B build_ngp
+export PATH="/usr/local/cuda/bin:$PATH"
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+
+cmake ./thirdparty/instant-ngp -B build_ngp
 
 ```
 
