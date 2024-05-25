@@ -55,6 +55,8 @@ sudo apt-get install python3.9-venv
 
 cd
 python3 -m venv venv
+
+# ~/.bashrc
 source venv/bin/activate
 ```
 
