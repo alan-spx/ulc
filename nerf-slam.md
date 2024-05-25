@@ -62,9 +62,11 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 sudo apt install -y xorg-dev libx11-dev
 sudo apt install libglew-dev
 
+# NO -j for multi-thread
+
 cd ./thirdparty/instant-ngp
 cmake . -B build_ngp
-cmake --build build_ngp --config RelWithDebInfo -j
+cmake --build build_ngp --config RelWithDebInfo 
 
 # https://github.com/NVlabs/instant-ngp/issues/1142
 
@@ -72,7 +74,7 @@ sudo apt-get install libboost-all-dev
 cd ./thirdparty/gtsam
 cmake . -DGTSAM_BUILD_PYTHON=1 -B build_gtsam
 ^^^ error
-cmake --build build_gtsam --config RelWithDebInfo -j
+cmake --build build_gtsam --config RelWithDebInfo 
 cd build_gtsam
 make python-install
 
