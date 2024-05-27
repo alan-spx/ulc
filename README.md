@@ -20,13 +20,6 @@ F2 -> BIOS
 ```
 Power -> Secondary Power Settings -> After Power Failure -> Power On  
 ```
-### - Power on
-```
-power never  
-dconf write /org/gnome/desktop/interface/clock-show-date 'true'
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
-```
-
 
 ## akcite/ulc
 ```
@@ -37,6 +30,13 @@ git clone https://github.com/alan-spx/ulc
 
 cd ulc
 gedit README.md
+```
+
+### - Power on
+```
+power never  
+dconf write /org/gnome/desktop/interface/clock-show-date 'true'
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  
 ```
 
 ## sudo
