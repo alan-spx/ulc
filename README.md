@@ -29,7 +29,7 @@ cd src
 git clone https://github.com/alan-spx/ulc
 
 cd ulc
-gedit README.md
+gedit ./README.md
 ```
 
 ### - Power on
