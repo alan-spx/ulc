@@ -30,23 +30,26 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
 ## akcite/ulc
 ```
-sudo apt-get remove --auto-remove nautilus  
-
-sudo apt install -y git  
+sudo apt install -y git gitk geany
 mkdir src  
 cd src  
-git clone https://github.com/alan-spx/ulc  
+git clone https://github.com/alan-spx/ulc
+
+cd ulc
+gedit README.md
 ```
 
 ## sudo
 ```
+sudo apt-get remove --auto-remove -y nautilus  
 sudo apt update  
-sudo apt install -y ssh geany pcmanfm net-tools git gitk terminator cmake build-essential 
+sudo apt install -y ssh pcmanfm net-tools terminator cmake build-essential 
 ```
 
 ## ZscalerRootCerts
 ```
 cd ~/src/ulc
+unzip -q ZscalerRootCerts.zip && rm ZscalerRootCerts.zip
 cd ZscalerRootCerts  
 sudo mkdir /usr/local/share/ca-certificates/extra  
 sudo cp ZscalerRootCertificate-2048-SHA256.crt /usr/local/share/ca-certificates/extra/root.cert.crt  
