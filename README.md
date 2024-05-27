@@ -21,7 +21,7 @@ F2 -> BIOS
 Power -> Secondary Power Settings -> After Power Failure -> Power On  
 ```
 
-## akcite/ulc
+## git
 ```
 sudo apt install -y git gitk geany
 mkdir src  
@@ -32,7 +32,7 @@ cd ulc
 gedit ./README.md
 ```
 
-### - Power on
+## Power on
 ```
 power never  
 dconf write /org/gnome/desktop/interface/clock-show-date 'true'
