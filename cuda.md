@@ -26,7 +26,7 @@ sudo grub-mkconfig | grep -iE "menuentry 'Ubuntu, with Linux" | awk '{print i++ 
 uname -srn
 sudo geany /etc/default/grub
 
-# Quote mark matters
+# Quotation Marks matters
 
 GRUB_DEFAULT="1>2"
 sudo update-grub
