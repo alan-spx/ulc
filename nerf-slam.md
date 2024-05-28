@@ -31,6 +31,13 @@ git submodule update --init --recursive
 ## Python 3.9
 ```
 # https://askubuntu.com/questions/1318846/how-do-i-install-python-3-9
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.9
+python3.9 --version 
+# Python 3.9.1+
 
 sudo apt install python3.9-dev
 
