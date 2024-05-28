@@ -43,7 +43,9 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 ```
 sudo apt-get remove --auto-remove -y nautilus  
 sudo apt update  
-sudo apt install -y ssh pcmanfm net-tools terminator cmake build-essential 
+sudo apt install -y ssh pcmanfm net-tools terminator cmake build-essential
+
+sudo apt-get install xfce4-terminal
 ```
 
 ## ZscalerRootCerts
