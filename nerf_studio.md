@@ -10,9 +10,8 @@ Ubuntu 20.04
 ```
 
 ## Change Kernel
-```
-[Change Kernel cuda.md](https://github.com/alan-spx/ulc/blob/master/cuda.md)
-```
+
+[Change Kernel cuda.md](https://github.com/alan-spx/ulc/blob/master/cuda.md)  
 
 
 ## CUDA 11.8
