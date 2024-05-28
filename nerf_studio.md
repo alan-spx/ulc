@@ -23,9 +23,8 @@ sudo apt-get -y install cuda
 ## Conda
 
 ```
+# https://www.anaconda.com/download/
 wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
-
-https://www.anaconda.com/download/
 ```
 
 ```
