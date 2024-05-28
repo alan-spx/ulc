@@ -9,37 +9,9 @@ https://github.com/nerfstudio-project/nerfstudio/
 Ubuntu 20.04
 ```
 
-## CUDA Docs
-```
-https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
-```
-
-
-## Commands
-```
-lsb_release -a    # Ubuntu version
-uname -r          # kernel version
-gcc -v            # GCC version
-ldd --version     # GLIBC version
-```
-
-
 ## Change Kernel
 ```
-sudo grub-mkconfig | grep -iE "menuentry 'Ubuntu, with Linux" | awk '{print i++ " : "$1, $2, $3, $4, $5, $6, $7}'
-uname -srn
-sudo geany /etc/default/grub
-
-# Quote mark matters
-
-GRUB_DEFAULT="1>2"
-sudo update-grub
-sudo systemctl reboot
-```
-
-```
-https://askubuntu.com/questions/82140/how-can-i-boot-with-an-older-kernel-version
-# Answered by Namasivayam Chinnapillai
+[Change Kernel cuda.md](https://github.com/alan-spx/ulc/blob/master/cuda.md)
 ```
 
 
