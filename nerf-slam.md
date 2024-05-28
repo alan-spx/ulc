@@ -3,7 +3,7 @@
 https://github.com/ToniRV/NeRF-SLAM
 ```
 
-## Ubuntu
+## Ubuntu 20.04
 ```
 Ubuntu 20.04
 ```
