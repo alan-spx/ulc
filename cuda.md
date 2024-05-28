@@ -10,6 +10,9 @@ Pytorch
 sudo grub-mkconfig | grep -iE "menuentry 'Ubuntu, with Linux" | awk '{print i++ " : "$1, $2, $3, $4, $5, $6, $7}'
 uname -srn
 sudo geany /etc/default/grub
+
+# Quote mark matters
+
 GRUB_DEFAULT="1>2"
 sudo update-grub
 sudo systemctl reboot
