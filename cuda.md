@@ -30,6 +30,7 @@ sudo geany /etc/default/grub
 GRUB_DEFAULT="1>2"
 
 sudo update-grub
+
 sudo systemctl reboot
 ```
 
