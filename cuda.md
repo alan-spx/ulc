@@ -5,6 +5,21 @@ Pytorch
 ```
 
 
+## CUDA Docs
+```
+https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+```
+
+
+## Commands
+```
+lsb_release -a    # Ubuntu version
+uname -r          # kernel version
+gcc -v            # GCC version
+ldd --version     # GLIBC version
+```
+
+
 ## Change Kernel
 ```
 sudo grub-mkconfig | grep -iE "menuentry 'Ubuntu, with Linux" | awk '{print i++ " : "$1, $2, $3, $4, $5, $6, $7}'
@@ -21,21 +36,6 @@ sudo systemctl reboot
 ```
 https://askubuntu.com/questions/82140/how-can-i-boot-with-an-older-kernel-version
 # Answered by Namasivayam Chinnapillai
-```
-
-
-## CUDA Docs
-```
-https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
-```
-
-
-## Commands
-```
-lsb_release -a    # Ubuntu version
-uname -r          # kernel version
-gcc -v            # GCC version
-ldd --version     # GLIBC version
 ```
 
 
