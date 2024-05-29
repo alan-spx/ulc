@@ -100,6 +100,15 @@ ns-download-data nerfstudio --capture-name=poster
 ns-train nerfacto --data data/nerfstudio/poster
 ```
 
+## Export
+```
+# Point Cloud
+ns-export pointcloud --load-config outputs/poster/nerfacto/2024-05-29_064436/config.yml --output-dir exports/pcd/ --num-points 1000000 --remove-outliers True --normal-method open3d --save-world-frame False
+
+# Mesh
+ns-export poisson --load-config outputs/poster/nerfacto/2024-05-29_064436/config.yml --output-dir exports/mesh/ --target-num-faces 50000 --num-pixels-per-side 2048 --num-points 1000000 --remove-outliers True --normal-method open3d
+```
+
 ## Notes
 ```
 tiny-cuda-nn warning: FullyFusedMLP is not supported for the selected architecture 61. Falling back to CutlassMLP. For maximum performance, raise the target GPU architecture to 75+.
