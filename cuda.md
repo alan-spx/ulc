@@ -11,7 +11,7 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 ```
 
 
-## Commands
+## Check Versions
 ```
 lsb_release -a    # Ubuntu version
 uname -r          # kernel version
