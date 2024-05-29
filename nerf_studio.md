@@ -66,7 +66,7 @@ conda remove -n ENV_NAME --all
 python --version
 # Python 3.11.7
 
-conda create --name nerfstudio -y python=3.11
+conda create --name nerfstudio -y python=3.8
 
 conda activate nerfstudio
 # conda deactivate
