@@ -39,6 +39,15 @@ https://askubuntu.com/questions/82140/how-can-i-boot-with-an-older-kernel-versio
 # Answered by Namasivayam Chinnapillai
 ```
 
+## Remove Kernel
+```
+dpkg -l | grep linux-image
+sudo apt-get purge linux-image-5.8.0-107-generic
+sudo apt-get purge linux-headers-5.8.0-107-generic
+
+sudo systemctl reboot
+```
+
 
 ## Remove CUDA
 Tested removing CUDA 12.3 @ Ubuntu 20.04  
