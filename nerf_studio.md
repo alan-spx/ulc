@@ -114,7 +114,29 @@ Use --vis {wandb, tensorboard, viewer+wandb, viewer+tensorboard} to run with eva
 No Nerfstudio checkpoint to load, so training from scratch.
 Disabled comet/tensorboard/wandb event writers
 [06:39:06] Printing max of 10 lines. Set flag --logging.local-writer.max-log-size=0 to disable line        writer.py:448
-           wrapping. 
+           wrapping.
+Step (% Done)       Vis Rays / Sec       Train Iter (time)    ETA (time)           Train Rays / Sec      
+-------------------------------------------------------------------------------------------------------- 
+29910 (99.70%)      101.070 ms           9 s, 96.299 ms       41.18 K                                    
+29920 (99.73%)      101.655 ms           8 s, 132.408 ms      41.04 K                                    
+29930 (99.77%)      102.165 ms           7 s, 151.529 ms      41.09 K                                    
+29940 (99.80%)      99.065 ms            5 s, 943.906 ms      42.15 K                                    
+29950 (99.83%)      97.951 ms            4 s, 897.541 ms      42.59 K                                    
+29960 (99.87%)      100.309 ms           4 s, 12.370 ms       41.77 K                                    
+29970 (99.90%)      99.159 ms            2 s, 974.759 ms      42.04 K                                    
+29980 (99.93%)      98.287 ms            1 s, 965.749 ms      42.43 K                                    
+29990 (99.97%)      100.554 ms           1 s, 5.535 ms        41.72 K                                    
+29999 (100.00%)                                                                                          
+----------------------------------------------------------------------------------------------------     
+Viewer running locally at: http://localhost:7007 (listening on 0.0.0.0)                                  
+╭─────────────────────────────── 🎉 Training Finished 🎉 ────────────────────────────────╮
+│                        ╷                                                               │
+│   Config File          │ outputs/poster/nerfacto/2024-05-29_064436/config.yml          │
+│   Checkpoint Directory │ outputs/poster/nerfacto/2024-05-29_064436/nerfstudio_models   │
+│                        ╵                                                               │
+╰────────────────────────────────────────────────────────────────────────────────────────╯
+                                                   Use ctrl+c to quit                                                
+
 ```
 ```
 (nerfstudio) cv@cv-NERF:~/work$ ns-export poisson --load-config outputs/poster/nerfacto/2024-05-28_214755/config.yml --output-dir exports/mesh/ --target-num-faces 50000 --num-pixels-per-side 2048 --num-points 1000000 --remove-outliers True --normal-method open3d 
