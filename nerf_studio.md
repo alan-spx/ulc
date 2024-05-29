@@ -81,4 +81,13 @@ pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindi
 pip install nerfstudio
 ```
 
+## Training
+```
+# Download some test data:
+ns-download-data nerfstudio --capture-name=poster
+# Assertion error: need to manually unzip data/nerfstudio/poster.zip
+
+# Train model
+ns-train nerfacto --data data/nerfstudio/poster
+```
 
