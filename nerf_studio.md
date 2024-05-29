@@ -384,7 +384,7 @@ Viewer running locally at: http://localhost:7007 (listening on 0.0.0.0)
                                                    Use ctrl+c to quit                                                
 
 ```
-### - Point Cloud
+### - Export Point Cloud
 ```
 (nerfstudio) cv@cv-NERF:~/work$ ns-export pointcloud --load-config outputs/poster/nerfacto/2024-05-29_064436/config.yml --output-dir exports/pcd/ --num-points 1000000 --remove-outliers True --normal-method open3d --save-world-frame False
 Warning:
@@ -424,7 +424,7 @@ Loading latest checkpoint from load_dir
 (nerfstudio) cv@cv-NERF:~/work$ 
 ```
 
-### - Mesh
+### - Export Mesh
 ```
 (nerfstudio) cv@cv-NERF:~/work$ ns-export poisson --load-config outputs/poster/nerfacto/2024-05-29_064436/config.yml --output-dir exports/mesh/ --target-num-faces 50000 --num-pixels-per-side 2048 --num-points 1000000 --remove-outliers True --normal-method open3d
 Warning:
