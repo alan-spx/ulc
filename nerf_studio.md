@@ -61,7 +61,7 @@ conda list
 conda remove -n ENV_NAME --all
 ```
 
-## Python
+### - Python
 ```
 python --version
 # Python 3.11.7
