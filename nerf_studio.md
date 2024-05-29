@@ -93,9 +93,29 @@ cd work
 
 # Download some test data:
 ns-download-data nerfstudio --capture-name=poster
-# Assertion error: need to manually unzip data/nerfstudio/poster.zip
+# AssertionError: There is more than one folder inside this zip file: ['poster', '__MACOSX']
+# Need to manually unzip data/nerfstudio/poster.zip
 
 # Train model
 ns-train nerfacto --data data/nerfstudio/poster
 ```
 
+## Notes
+```
+tiny-cuda-nn warning: FullyFusedMLP is not supported for the selected architecture 61. Falling back to CutlassMLP. For maximum performance, raise the target GPU architecture to 75+.
+╭─────────────── viser ───────────────╮
+│             ╷                       │
+│   HTTP      │ http://0.0.0.0:7007   │
+│   Websocket │ ws://0.0.0.0:7007     │
+│             ╵                       │
+╰─────────────────────────────────────╯
+[NOTE] Not running eval iterations since only viewer is enabled.
+Use --vis {wandb, tensorboard, viewer+wandb, viewer+tensorboard} to run with eval.
+No Nerfstudio checkpoint to load, so training from scratch.
+Disabled comet/tensorboard/wandb event writers
+[06:39:06] Printing max of 10 lines. Set flag --logging.local-writer.max-log-size=0 to disable line        writer.py:448
+           wrapping. 
+```
+```
+
+```
