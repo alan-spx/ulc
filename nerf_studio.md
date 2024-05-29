@@ -56,6 +56,11 @@ source ~/.bashrc
 conda list
 ```
 
+### - Remove conda
+```
+conda remove -n ENV_NAME --all
+```
+
 ## Python
 ```
 python --version
