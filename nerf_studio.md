@@ -56,7 +56,29 @@ source ~/.bashrc
 conda list
 ```
 
+## Python
 ```
-conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.4 -c pytorch -c nvidia
+python --version
+# Python 3.11.7
+
+conda create --name nerfstudio -y python=3.11
+
+conda activate nerfstudio
+# conda deactivate
+
+pip install --upgrade pip
 ```
+
+## Dependencies
+```
+pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+```
+
+## Installing nerfstudio
+```
+pip install nerfstudio
+```
+
 
