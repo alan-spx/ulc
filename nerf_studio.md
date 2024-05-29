@@ -83,6 +83,9 @@ pip install nerfstudio
 
 ## Training
 ```
+mkdir work
+cd work
+
 # Download some test data:
 ns-download-data nerfstudio --capture-name=poster
 # Assertion error: need to manually unzip data/nerfstudio/poster.zip
