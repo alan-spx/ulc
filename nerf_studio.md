@@ -37,9 +37,19 @@ cd ~/Downloads
 chmod +x Anaconda3-20**.**-Linux-x86_64.sh
 ./Anaconda3-20**.**-Linux-x86_64.sh
 
-q
-yes
+# License
 ENTER
+q
+
+# Do you accept the license terms?
+yes
+
+# /home/cv/anaconda3
+ENTER
+# wait ...
+
+# Do you wish to update your shell profile to automatically initialize conda?
+# [no] >>>
 yes
 
 source ~/.bashrc
