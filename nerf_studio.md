@@ -1,7 +1,7 @@
 ## Homepage
 ```
-https://docs.nerf.studio/index.html
-https://github.com/nerfstudio-project/nerfstudio/
+[NerfStudio Homepage](https://docs.nerf.studio/index.html)
+[NerfStudio Github](https://github.com/nerfstudio-project/nerfstudio/)
 ```
 
 ## Ubuntu 20.04
