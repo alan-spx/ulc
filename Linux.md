@@ -184,4 +184,19 @@ Icon=system-shutdown
 Tools > Options > LibreOffice > Application Colors > General > Document background > Black
 ```
 
+## Remmina
+### - Server
+```
+Settings > Sharing > Screen Sharing >
+- Allow connections to control the screen
+- Require a password: ulc
+- Wired connections 1
+```
+### - Client
+```
+Remmina
+VNC > cv-NERF.local
+ENTER
+```
+
 ## 
