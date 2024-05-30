@@ -7,7 +7,7 @@
 Ubuntu 20.04
 ```
 
-## Change Kernel
+## Change & Remove Kernel
 
 [Change Kernel cuda.md](https://github.com/alan-spx/ulc/blob/master/cuda.md)  
 
