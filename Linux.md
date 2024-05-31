@@ -219,7 +219,7 @@ metadata.json
 ```
 #!/bin/sh
 
-echo wkddPwls | sudo -S shutdown now
+echo aaa | sudo -S shutdown now
 ```
 
 ```
