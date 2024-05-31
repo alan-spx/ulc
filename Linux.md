@@ -228,6 +228,10 @@ gnome-extensions enable KBD
 Alt+F2 r Enter
 ```
 
+```
+https://askubuntu.com/questions/1289453/how-do-you-make-a-button-that-performs-a-specific-command
+```
+
 ## LibreOffice Writer Dark Mode
 ```
 Tools > Options > LibreOffice > Application Colors > General > Document background > Black
