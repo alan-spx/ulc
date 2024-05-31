@@ -165,18 +165,67 @@ https://m.blog.naver.com/opusk/220986268503
 
 ### - Shutdown button for Ubuntu dock
 ```
-touch ~/.local/share/applications/shutdown-for-dock.desktop
-geany ~/.local/share/applications/shutdown-for-dock.desktop
+mkdir -p $HOME/.local/share/gnome-shell/extensions/KBD
+touch $HOME/.local/share/gnome-shell/extensions/KBD/extension.js
+touch $HOME/.local/share/gnome-shell/extensions/KBD/metadata.json
+```
+extension.js  
+```
+'use strict';
 
-[Desktop Entry]  
-Name=Shutdown for Dock  
-Exec=gnome-session-quit --power-off  
-Comment=Shutdown button for Ubuntu dock  
-Terminal=false  
-Type=Application  
-Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
+const St = imports.gi.St;
 
-Icon=system-shutdown
+const Main = imports.ui.main;
+const Util = imports.misc.util;
+
+let button;
+
+function _myKBD () {
+Util.spawnCommandLine("bash /home/alan/.shutdown.sh")
+}
+
+function init() {
+    button = new St.Bin({ style_class: 'panel-button',
+                          reactive: true,
+                          can_focus: true,
+                          track_hover: true });
+                          
+    let icon = new St.Icon ({ icon_name: 'input-keyboard-symbolic',
+                      style_class: 'system-status-icon' });
+    button.set_child(icon);
+    button.connect('button-press-event', _myKBD);
+}
+
+function enable() {
+        Main.panel._rightBox.insert_child_at_index(button, 0);
+}
+
+function disable() {
+        Main.panel._rightBox.remove_child(button);
+}
+```
+metadata.json  
+```
+{
+  "name": "KBD",
+  "description": "KBD",
+  "uuid": "KBD",
+  "shell-version": [
+    "3.36"
+  ]
+}
+```
+.shutdown.sh  
+```
+#!/bin/sh
+
+echo wkddPwls | sudo -S shutdown now
+```
+
+```
+Alt+F2 r Enter
+gnome-extensions enable KBD
+Alt+F2 r Enter
 ```
 
 ## LibreOffice Writer Dark Mode
