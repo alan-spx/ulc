@@ -163,7 +163,7 @@ https://hhddkk.wordpress.com/2016/06/02/install-google-pinyin-in-ubuntu-16-04/
 https://m.blog.naver.com/opusk/220986268503
 ```
 
-### - Shutdown button for Ubuntu dock
+## Topbar Shutdown Button
 ```
 mkdir -p $HOME/.local/share/gnome-shell/extensions/KBD
 touch $HOME/.local/share/gnome-shell/extensions/KBD/extension.js
