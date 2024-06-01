@@ -166,8 +166,10 @@ https://m.blog.naver.com/opusk/220986268503
 ## Topbar Shutdown Button
 ```
 mkdir -p $HOME/.local/share/gnome-shell/extensions/KBD
+
 touch $HOME/.local/share/gnome-shell/extensions/KBD/extension.js
 touch $HOME/.local/share/gnome-shell/extensions/KBD/metadata.json
+touch $HOME/.shutdown.sh
 
 geany $HOME/.local/share/gnome-shell/extensions/KBD/extension.js
 geany $HOME/.local/share/gnome-shell/extensions/KBD/metadata.json
