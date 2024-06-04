@@ -88,6 +88,7 @@ pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https
 ```
 python
 import torch
+
 torch.cuda.is_available()
 torch.cuda.device_count()
 torch.cuda.current_device()
