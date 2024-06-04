@@ -109,6 +109,10 @@ ns-download-data nerfstudio --capture-name=poster
 ns-train nerfacto --data data/nerfstudio/poster
 ```
 
+## Viser
+
+[Viser](http://0.0.0.0:7007)  
+
 ## Export
 ```
 # Point Cloud
