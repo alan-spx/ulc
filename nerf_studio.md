@@ -22,6 +22,13 @@ sudo cp /var/cuda-repo-ubuntu2004-11-8-local/cuda-*-keyring.gpg /usr/share/keyri
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
+```
+export CUDA_HOME=/usr/local/cuda
+export PATH=/usr/local/cuda/bin:$PATH
+export CPATH=/usr/local/cuda/include:$CPATH
+export LIBRARY_PATH=/usr/local/cuda/lib64:$LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
+```
 
 ## Conda
 
@@ -76,6 +83,9 @@ pip install --upgrade pip
 ```
 pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+
+export TCNN_CUDA_ARCHITECTURES=89
+
 pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 
 conda install -y libffi==3.3
