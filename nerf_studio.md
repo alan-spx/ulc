@@ -38,7 +38,6 @@ wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 ```
 
 ```
-cd ~/Downloads
 chmod +x Anaconda3-20**.**-Linux-x86_64.sh
 ./Anaconda3-20**.**-Linux-x86_64.sh
 
