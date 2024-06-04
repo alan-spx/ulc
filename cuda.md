@@ -16,10 +16,15 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 
 ## Check Versions
 ```
-lsb_release -a    # Ubuntu version
-uname -r          # kernel version
-gcc -v            # GCC version
-ldd --version     # GLIBC version
+# Ubuntu version
+# kernel version
+# GCC version
+# GLIBC version
+
+lsb_release -a    
+uname -r          
+gcc -v            
+ldd --version     
 ```
 
 
