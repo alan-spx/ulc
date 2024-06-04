@@ -82,6 +82,22 @@ pip install --upgrade pip
 ## Dependencies
 ```
 pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+```
+### - Pytorch CUDA test
+```
+>>> import torch
+>>> torch.cuda.is_available()
+True
+>>> torch.cuda.device_count()
+1
+>>> torch.cuda.current_device()
+0
+>>> torch.cuda.device(0)
+<torch.cuda.device at 0x7efce0b03be0>
+>>> torch.cuda.get_device_name(0)
+'GeForce GTX 950M'
+```
+```
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 
 export TCNN_CUDA_ARCHITECTURES=89
