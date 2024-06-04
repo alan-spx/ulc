@@ -88,23 +88,12 @@ pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https
 ```
 python
 import torch
-
-torch.cuda.is_available()
-torch.cuda.device_count()
-torch.cuda.current_device()
-torch.cuda.device(0)
-torch.cuda.get_device_name(0)
-
-True
-1
-0
-<torch.cuda.device at 0x7efce0b03be0>
-'GeForce GTX 950M'
+torch._C._cuda_init()
 ```
 ```
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 
-export TCNN_CUDA_ARCHITECTURES=89
+# export TCNN_CUDA_ARCHITECTURES=89
 pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 
 conda install -y libffi==3.3
