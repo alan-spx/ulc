@@ -11,8 +11,8 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 ```
 
 ## CUDA Downloads
-(Latest)[https://developer.nvidia.com/cuda-downloads]
-(Previous)[https://developer.nvidia.com/cuda-toolkit-archive]
+[Latest](https://developer.nvidia.com/cuda-downloads)  
+[Previous](https://developer.nvidia.com/cuda-toolkit-archive)
 
 ## Check Versions
 ```
