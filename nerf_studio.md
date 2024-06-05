@@ -94,14 +94,16 @@ conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 
 # export TCNN_CUDA_ARCHITECTURES=89
 pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
-
+```
+```
 conda install -y libffi==3.3
 ```
 
 ## Installing nerfstudio
 ```
 pip install nerfstudio
-
+```
+```
 pip install mediapy==1.2.0
 ```
 
