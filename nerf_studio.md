@@ -87,7 +87,7 @@ pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https
 ```
 python
 import torch
-torch._C._cuda_init()
+torch.cuda.get_device_name(0)
 ```
 ```
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
