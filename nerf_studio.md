@@ -101,6 +101,8 @@ conda install -y libffi==3.3
 ## Installing nerfstudio
 ```
 pip install nerfstudio
+
+pip install mediapy==1.2.0
 ```
 
 ## Training
