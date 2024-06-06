@@ -3,9 +3,10 @@
 
 ```
 cd src
-git clone --recursive https://github.com/Kitware/VTK.git
+git clone https://github.com/Kitware/VTK.git
 cd VTK
 git co v9.0.0
+git co v8.1.1
 ```
 ```
 mkdir build
