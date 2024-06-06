@@ -5,8 +5,7 @@
 cd src
 git clone https://github.com/Kitware/VTK.git
 cd VTK
-git co v9.0.0
-git co v8.1.1
+git co v8.2.0
 ```
 ```
 mkdir build
@@ -16,14 +15,10 @@ cmake-gui
 
 # https://discourse.vtk.org/t/poissonreconstruction/4777
 # Check **Grouped** and **Advanced** boxes
-# Check **VTK** session
 
-VTK_MODULE_ENABLE_VTK_PoissonReconstruction
-# Then set the values to WANT then configure and build.
+Module_PoissonReconstruction
 
 CMAKE_BUILD_TYPE Release
-
-VTK_BUILD_EXAMPLES
 
 >> Configure, Generate
 
