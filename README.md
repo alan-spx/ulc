@@ -404,6 +404,13 @@ View/Change Color Scheme
 https://github.com/geany/geany-themes  
 https://www.geany.org/download/themes/
 ```
+### - Underscore
+```
+Tools > Configuration Files > filetypes.common
+
+[styling]
+line_height=0;2;
+```
 
 ## Ubuntu Icon Entry
 ```
