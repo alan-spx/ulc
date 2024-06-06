@@ -16,6 +16,9 @@ cmake-gui
 # Check **Grouped** and **Advanced** boxes
 # Check **VTK** session
 
+VTK_MODULE_ENABLE_VTK_PoissonReconstruction
+# Then set the values to WANT then configure and build.
+
 CMAKE_BUILD_TYPE Release
 
 VTK_BUILD_EXAMPLES
