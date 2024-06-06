@@ -13,6 +13,7 @@ cd build
 
 cmake-gui
 
+# https://discourse.vtk.org/t/poissonreconstruction/4777
 # Check **Grouped** and **Advanced** boxes
 # Check **VTK** session
 
