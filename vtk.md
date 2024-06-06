@@ -3,10 +3,22 @@
 
 ```
 cd src
-git clone https://github.com/Kitware/VTK.git
+git clone --recursive https://gitlab.kitware.com/vtk/vtk.git
+cd VTK
 mkdir build
 cd build
-cmake ..
+
+cmake-gui
+
+CMAKE_BUILD_TYPE Release
+
+Add Entry
+Module_PoissonReconstruction 
+
+VTK_BUILD_EXAMPLES
+
+>> Configure, Generate
+
 make -j
 sudo make install
 ```
