@@ -3,8 +3,9 @@
 
 ```
 cd src
-git clone --recursive https://gitlab.kitware.com/vtk/vtk.git
+git clone --recursive https://github.com/Kitware/VTK.git
 cd VTK
+git co v9.0.0
 ```
 ```
 # https://github.com/lorensen/PoissonReconstruction/blob/master/PoissonReconstruction.remote.cmake
