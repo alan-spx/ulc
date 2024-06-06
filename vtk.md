@@ -33,6 +33,6 @@ sudo make install
 
 ## Examples
 ```
-[Examples](https://examples.vtk.org/site/Cxx)
+https://examples.vtk.org/site/Cxx
 ```
 
