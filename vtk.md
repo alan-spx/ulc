@@ -8,21 +8,15 @@ cd VTK
 git co v9.0.0
 ```
 ```
-# https://github.com/lorensen/PoissonReconstruction/blob/master/PoissonReconstruction.remote.cmake
-# Download
-PoissonReconstruction.remote.cmake
-# Add to VTK/Remote
-```
-```
 mkdir build
 cd build
 
 cmake-gui
 
-CMAKE_BUILD_TYPE Release
+# Check **Grouped** and **Advanced** boxes
+# Check **VTK** session
 
-Add Entry
-Module_PoissonReconstruction 
+CMAKE_BUILD_TYPE Release
 
 VTK_BUILD_EXAMPLES
 
