@@ -5,7 +5,7 @@
 cd src
 git clone https://github.com/Kitware/VTK.git
 cd VTK
-git co v8.2.0
+git co v9.0.0
 ```
 ```
 mkdir build
