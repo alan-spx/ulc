@@ -187,7 +187,7 @@ const Util = imports.misc.util;
 let button;
 
 function _myKBD () {
-Util.spawnCommandLine("bash /home/alan/.shutdown.sh")
+Util.spawnCommandLine("bash $HOME/.shutdown.sh")
 }
 
 function init() {
@@ -225,7 +225,7 @@ metadata.json
 ```
 #!/bin/sh
 
-echo aaa | sudo -S shutdown now
+echo ulc | sudo -S shutdown now
 ```
 
 ```
