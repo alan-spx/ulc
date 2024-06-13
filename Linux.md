@@ -75,15 +75,15 @@ sudo apt install -y dconf-editor
 Search 'trash'
 
 ## New Fonts
-**ms_fonts**
+**my_fonts**
 ```
-sudo mkdir /usr/local/share/fonts/ms_fonts
+sudo mkdir /usr/local/share/fonts/my_fonts
 
-sudo mv ~/Downloads/*.ttc ~/Downloads/*.ttf /usr/local/share/fonts/ms_fonts/
+sudo mv ~/Downloads/*.ttf /usr/local/share/fonts/my_fonts/
 
-sudo chown root:staff /usr/local/share/fonts/ms_fonts -R
-sudo chmod 644 /usr/local/share/fonts/ms_fonts/* -R
-sudo chmod 755 /usr/local/share/fonts/ms_fonts
+sudo chown root:staff /usr/local/share/fonts/my_fonts -R
+sudo chmod 644 /usr/local/share/fonts/my_fonts/* -R
+sudo chmod 755 /usr/local/share/fonts/my_fonts
 
 sudo fc-cache -fv
 ```
