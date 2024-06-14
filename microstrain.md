@@ -28,6 +28,12 @@ sudo mv ~/Downloads/udev.txt /etc/udev/rules.d/100-microstrain.rules
 # /home/alan/catkin_ws/src/microstrain_inertial/microstrain_inertial_driver/launch/microstrain.launch
     <remap from="/imu/data" to="/imu_data" />
 ```
+```
+# /opt/ros/noetic/share/robot_pose_ekf/robot_pose_ekf.launch
+  <param name="odom_used" value="false"/>
+  <param name="imu_used" value="true"/>
+  <param name="vo_used" value="false"/>
+```
 
 ```
 roslaunch microstrain_inertial_driver microstrain.launch
