@@ -31,4 +31,13 @@ roslaunch microstrain_inertial_driver microstrain.launch
 ## Check
 ```
 rqt_plot /imu/data/linear_acceleration/x
+
+rqt_plot /robot_pose_ekf/odom_combined/Pose/Point/x
+rqt_plot /robot_pose_ekf/odom_combined/Pose/Quaternion/x
+```
+
+## robot_pose_ekf
+[Website](https://wiki.ros.org/robot_pose_ekf)  
+```
+
 ```
