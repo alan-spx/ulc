@@ -27,3 +27,8 @@ sudo mv ~/Downloads/udev.txt /etc/udev/rules.d/100-microstrain.rules
 ```
 roslaunch microstrain_inertial_driver microstrain.launch
 ```
+
+## Check
+```
+rqt_plot /imu_data/linear_acceleration/x
+```
