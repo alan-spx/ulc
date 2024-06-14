@@ -30,5 +30,5 @@ roslaunch microstrain_inertial_driver microstrain.launch
 
 ## Check
 ```
-rqt_plot /imu_data/linear_acceleration/x
+rqt_plot /imu/data/linear_acceleration/x
 ```
