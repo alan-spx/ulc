@@ -28,6 +28,7 @@ sudo mv ~/Downloads/udev.txt /etc/udev/rules.d/100-microstrain.rules
 roslaunch microstrain_inertial_driver microstrain.launch
 ```
 
+<! -- your comment 
 ## robot_pose_ekf
 
 [Website](https://wiki.ros.org/robot_pose_ekf)  
@@ -37,14 +38,15 @@ roscd robot_pose_ekf
 rosmake
 
 roslaunch robot_pose_ekf.launch
-```
-
-## Check
-```
-rostopic echo /imu/data 
 
 rqt_plot /imu/data/linear_acceleration/x
 
 rqt_plot /robot_pose_ekf/odom_combined/Pose/Point/x
 rqt_plot /robot_pose_ekf/odom_combined/Pose/Quaternion/x
+```
+-->
+
+## Check
+```
+rostopic echo /imu/data 
 ```
