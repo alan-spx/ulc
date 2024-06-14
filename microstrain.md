@@ -37,7 +37,12 @@ rqt_plot /robot_pose_ekf/odom_combined/Pose/Quaternion/x
 ```
 
 ## robot_pose_ekf
+
 [Website](https://wiki.ros.org/robot_pose_ekf)  
 ```
+rosdep install robot_pose_ekf
+roscd robot_pose_ekf
+rosmake
 
+roslaunch robot_pose_ekf.launch
 ```
