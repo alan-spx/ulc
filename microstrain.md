@@ -41,6 +41,8 @@ roslaunch robot_pose_ekf.launch
 
 ## Check
 ```
+rostopic echo /imu/data 
+
 rqt_plot /imu/data/linear_acceleration/x
 
 rqt_plot /robot_pose_ekf/odom_combined/Pose/Point/x
