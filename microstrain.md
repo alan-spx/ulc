@@ -34,7 +34,10 @@ sudo mv ~/Downloads/udev.txt /etc/udev/rules.d/100-microstrain.rules
   <param name="imu_used" value="true"/>
   <param name="vo_used" value="false"/>
 ```
-
+```
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 imu_link odom_combined 10
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 imu_link base_footprint 10
+```
 ```
 roslaunch microstrain_inertial_driver microstrain.launch
 ```
