@@ -25,6 +25,11 @@ sudo mv ~/Downloads/udev.txt /etc/udev/rules.d/100-microstrain.rules
 ## Run
 
 ```
+# /home/alan/catkin_ws/src/microstrain_inertial/microstrain_inertial_driver/launch/microstrain.launch
+    <remap from="/imu/data" to="/imu_data" />
+```
+
+```
 roslaunch microstrain_inertial_driver microstrain.launch
 ```
 
