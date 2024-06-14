@@ -3,6 +3,8 @@
 [Website](https://www.microstrain.com/inertial-sensors/3dm-gx5-25)  
 [GitHub](https://github.com/LORD-MicroStrain/microstrain_inertial)
 
+## Install
+
 ```
 sudo apt install -y libgeographic-dev
 
@@ -13,4 +15,15 @@ cd ~/catkin_ws
 catkin_make
 source ~/catkin_ws/devel/setup.bash
 
+# Download udev.txt from
+# https://github.com/LORD-MicroStrain/microstrain_inertial/blob/ros/microstrain_inertial_driver/debian/udev
+sudo mv ~/Downloads/udev.txt /etc/udev/rules.d/100-microstrain.rules
+
+
+```
+
+## Run
+
+```
+roslaunch microstrain_inertial_driver microstrain.launch
 ```
