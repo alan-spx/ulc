@@ -28,7 +28,7 @@ sudo mv ~/Downloads/udev.txt /etc/udev/rules.d/100-microstrain.rules
 roslaunch microstrain_inertial_driver microstrain.launch
 ```
 
-<! -- your comment 
+<!--- 
 ## robot_pose_ekf
 
 [Website](https://wiki.ros.org/robot_pose_ekf)  
