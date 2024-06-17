@@ -20,8 +20,8 @@
 ```
 
 ## Boot
-F10 -> UEFI  
-F2 -> BIOS
+NUC: F10 -> UEFI  F2 -> BIOS  
+ThinkPad: F12 -> Boot
 ```
 Power -> Secondary Power Settings -> After Power Failure -> Power On  
 ```
