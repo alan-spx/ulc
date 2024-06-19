@@ -42,10 +42,10 @@ rosrun tf static_transform_publisher 0 0 0 0 0 0 1 imu_link base_footprint 10
 roslaunch microstrain_inertial_driver microstrain.launch
 ```
 
-<!--- 
 ## robot_pose_ekf
 
 [Website](https://wiki.ros.org/robot_pose_ekf)  
+<!--- 
 ```
 rosdep install robot_pose_ekf
 roscd robot_pose_ekf
