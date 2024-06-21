@@ -54,5 +54,8 @@ Topic > +(Add) > Select topic and drag to plot window
 
 ## 	plotjuggler
 [Website](https://index.ros.org/p/plotjuggler/)  
+```
+sudo snap install plotjuggler-ros
+```
 
 ##
