@@ -51,3 +51,8 @@ rosrun image_view extract_images _sec_per_frame:=0.01 image:=/raw_image
 Plugins > Visualization > Plot
 Topic > +(Add) > Select topic and drag to plot window
 ```
+
+## 	plotjuggler
+[Website](https://index.ros.org/p/plotjuggler/)  
+
+##
