@@ -351,6 +351,9 @@ sudo make install
 sudo apt install -y clang-format  
 find src/ -iname *.h -o -iname *.cpp | xargs clang-format -i  
 ```
+```
+clang-format -i -style=llvm src/csv_to_text.cpp 
+```
 
 ## OpenCV
 
