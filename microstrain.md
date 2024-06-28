@@ -58,6 +58,14 @@ rqt_plot /imu/data/linear_acceleration/x
 rqt_plot /robot_pose_ekf/odom_combined/Pose/Point/x
 rqt_plot /robot_pose_ekf/odom_combined/Pose/Quaternion/x
 ```
+
+```
+sudo apt install -y ros-noetic-geographic-msgs 
+cd catkin_ws/src
+git clone https://github.com/norsechurros/Ekf-Fusion.git
+cd ..
+catkin_make
+```
 -->
 
 ## Check
