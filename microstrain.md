@@ -3,6 +3,16 @@
 [Website](https://www.microstrain.com/inertial-sensors/3dm-gx5-25)  
 [GitHub](https://github.com/LORD-MicroStrain/microstrain_inertial)
 
+## IMU memo
+```
+roslaunch microstrain_inertial_driver microstrain.launch
+
+rosbag record /imu/data
+
+python live_capture_timestamp.py 
+
+rostopic echo -b imudata_2024-06-21-14-24-11.bag -p /imu/data > 2024-06-21-14-24-11.csv
+```
 ## Install
 
 ```
