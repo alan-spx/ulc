@@ -238,6 +238,22 @@ Alt+F2 r Enter
 https://askubuntu.com/questions/1289453/how-do-you-make-a-button-that-performs-a-specific-command
 ```
 
+Taskbar button
+```
+touch ~/.local/share/applications/shutdown-for-dock.desktop
+geany ~/.local/share/applications/shutdown-for-dock.desktop
+
+[Desktop Entry]  
+Name=Shutdown for Dock  
+Exec=gnome-session-quit --power-off  
+Comment=Shutdown button for Ubuntu dock  
+Terminal=false  
+Type=Application  
+Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
+
+Icon=system-shutdown
+```
+
 ## LibreOffice Writer Dark Mode
 ```
 Tools > Options > LibreOffice > Application Colors > General > Document background > Black
