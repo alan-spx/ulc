@@ -87,6 +87,10 @@ sudo chmod 755 /usr/local/share/fonts/my_fonts
 
 sudo fc-cache -fv
 ```
+```
+STLiti: 华文隶书
+umid: 沙孟海
+```
 
 ## Personal installation
 
