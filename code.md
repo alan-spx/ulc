@@ -53,6 +53,19 @@ time_interval = time_2 - time_1
 print("{:2.3f} Hz".format(1/time_interval))
 ```
 
+## Python-YYYY-MM-DD HH:MM:SS
+```
+import datetime
+now = datetime.datetime.now()
+dir_name = "{:d}".format(now.year) + \
+               "-{:02d}".format(now.month) + \
+               "-{:02d}".format(now.day) + \
+               " {:02d}".format(now.hour) + \
+               ":{:02d}".format(now.minute) + \
+               ":{:02d}".format(now.second)
+print( dir_name)
+```
+
 ## C++Hz
 ```
 #include <iostream>
