@@ -42,6 +42,15 @@ https://ubuntuhandbook.org/index.php/2021/03/libreoffice-7-1-2-released-install-
 https://ask.libreoffice.org/t/image-as-character-as-default/25152/5
 ```
 
+## Libreoffice Writer Character Styles
+
+```
+Make a styled sample -> Styles (Icon: brush+A) -> A (Character) -> Dropdown menu -> New Style from Selection -> Enter new style name: -> 1-Highlight -> OK
+```
+```
+Tools -> Customize -> Keyboard -> Category -> Styles -> Character -> 1-Highlight -> Shortcut Keys (F2) -> Modify -> OK
+```
+
 ## Alarm Clock
 
 ```
