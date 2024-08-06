@@ -51,6 +51,11 @@ Make a styled sample -> Styles (Icon: brush+A) -> A (Character) -> Dropdown menu
 Tools -> Customize -> Keyboard -> Category -> Styles -> Character -> 1-Highlight -> Shortcut Keys (F2) -> Modify -> OK
 ```
 
+## LibreOffice Writer Dark Mode
+```
+Tools > Options > LibreOffice > Application Colors > General > Document background > Black
+```
+
 ## Alarm Clock
 
 ```
@@ -265,11 +270,6 @@ Type=Application
 Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
 
 Icon=system-shutdown
-```
-
-## LibreOffice Writer Dark Mode
-```
-Tools > Options > LibreOffice > Application Colors > General > Document background > Black
 ```
 
 ## Remmina
