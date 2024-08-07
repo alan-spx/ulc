@@ -1,3 +1,8 @@
+## Python is Python3
+```
+sudo apt install python-is-python3
+```
+
 ## Python-OpenCV
 
 ### - resize
