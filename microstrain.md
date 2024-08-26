@@ -7,7 +7,7 @@
 ```
 roslaunch microstrain_inertial_driver microstrain.launch
 
-rosbag record /imu/data
+rosbag record /imu/data -o imu
 
 python live_capture_timestamp.py 
 
