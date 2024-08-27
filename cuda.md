@@ -25,6 +25,10 @@ gcc -v
 ldd --version     
 ```
 
+## Install older kernel
+```
+sudo apt install linux-image-5.15.0-67-generic  linux-headers-5.15.0-67-generic linux-modules-extra-5.15.0-67-generic
+```
 
 ## Change Kernel
 ```
