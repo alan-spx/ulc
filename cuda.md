@@ -7,7 +7,7 @@ Pytorch
 
 ## CUDA Docs
 ```
-https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+[Docs](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 ```
 
 ## CUDA Downloads
