@@ -256,7 +256,7 @@ Alt+F2 r Enter
 https://askubuntu.com/questions/1289453/how-do-you-make-a-button-that-performs-a-specific-command
 ```
 
-Taskbar button
+## Shutdown Taskbar button
 ```
 touch ~/.local/share/applications/shutdown-for-dock.desktop
 geany ~/.local/share/applications/shutdown-for-dock.desktop
@@ -270,6 +270,11 @@ Type=Application
 Icon=/usr/share/icons/gnome/48x48/actions/gnome-logout.png  
 
 Icon=system-shutdown
+```
+
+## Suspend by Power Button
+```
+Settings > Power > Suspend & Power Button > Power Button Behavior > Suspend
 ```
 
 ## Remmina
