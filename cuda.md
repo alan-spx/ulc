@@ -25,6 +25,11 @@ gcc -v
 ldd --version     
 ```
 
+## Set Kernel Oh Hold
+```
+sudo apt-mark hold 5.15.0-67-generic
+```
+
 ## Install older kernel
 ```
 sudo apt install linux-image-5.15.0-67-generic  linux-headers-5.15.0-67-generic linux-modules-extra-5.15.0-67-generic
