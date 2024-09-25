@@ -87,6 +87,12 @@ Run A1~A6
 https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-7-on-ubuntu-18-10/  
 ```
 
+## Terminator won't open
+```
+By any means (knowingly or unknowingly) you must have downgraded the python version in your ubuntu for which you are facing such problem :)
+https://www.reddit.com/r/Ubuntu/comments/yn9w37/i_cant_open_the_terminal_please_help/
+```
+
 ## ROS  
 https://wiki.ros.org/noetic/Installation/Ubuntu
 
