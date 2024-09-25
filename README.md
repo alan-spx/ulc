@@ -93,6 +93,12 @@ By any means (knowingly or unknowingly) you must have downgraded the python vers
 https://www.reddit.com/r/Ubuntu/comments/yn9w37/i_cant_open_the_terminal_please_help/
 ```
 
+## Terminal Alternatives
+```
+- Visual Studio Code -> Terminal -> New Terminal
+- 
+```
+
 ## ROS  
 https://wiki.ros.org/noetic/Installation/Ubuntu
 
